@@ -30,7 +30,7 @@
    
    > git pull
 
-##### Her düzenlemeyi yapan kişi ismine göre branch açsınve güncellemeleri onun içerisinde yapsın
+##### Her düzenlemeyi yapan kişi ismine göre branch açsın ve güncellemeleri onun içerisinde yapsın
 
 * ***yeni branch açmak için;***
 
