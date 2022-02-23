@@ -30,18 +30,3 @@
    
    > git pull
 
-##### Her düzenlemeyi yapan kişi ismine göre branch açsın ve güncellemeleri onun içerisinde yapsın
-
-* ***yeni branch açmak için;***
-
-  > git branch yenibranchismi
-
-
-* ***branchlar arası geçiş için;***
-      
-  > git checkout yenibranchismi
-
-   
-* ***hangi branchta olduğunuzu görmek için;***
-
-  > git branch
