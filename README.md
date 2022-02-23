@@ -1,5 +1,5 @@
-* Git cheat sheet (türkçe)
- https://mustafadikyar.medium.com/git-github-cheatsheet-596ca9d90fa0
+* Git cheat sheet (türkçe) = [TIKLA](https://mustafadikyar.medium.com/git-github-cheatsheet-596ca9d90fa0/).
+ 
  
 * ***projeyi kendi pcnize kopyalamak için;*** 
  
