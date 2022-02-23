@@ -1,7 +1,8 @@
-# SoruUygulamasi
+* Git cheat sheet (türkçe) *
+ https://mustafadikyar.medium.com/git-github-cheatsheet-596ca9d90fa0
 
 
-# Her düzenlemeyi yapan kişi ismine göre branch açsınve güncellemeleri onun içerisinde yapsın
+## Her düzenlemeyi yapan kişi ismine göre branch açsınve güncellemeleri onun içerisinde yapsın
 
     + yeni branch açmak için;
 
