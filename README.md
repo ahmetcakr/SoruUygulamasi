@@ -28,7 +28,7 @@
    
 * ***Ana projedeki tüm değişiklikleri kendinize geçmek için;***    
    
-   > git pull
+   > git fetch
 
 ##### Her düzenlemeyi yapan kişi ismine göre branch açsın ve güncellemeleri onun içerisinde yapsın
 
