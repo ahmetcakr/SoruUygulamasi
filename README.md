@@ -4,43 +4,44 @@
 * ***projeyi kendi pcnize kopyalamak için;*** 
  
      - (kopyalarsanız içerisinde otomatik olarak init yapılmış oluyor cd ile klasörün içerisine girdiğinizde üzerinde kod çalıştırabilirsiniz.)
+     
  
-   -- git clone https://github.com/ahmetcakr/SoruUygulamasi.git
+   > git clone https://github.com/ahmetcakr/SoruUygulamasi.git
    
    
 * ***Projedeki yaptığınız değişiklikleri görmek için;***
 
-   -- git status 
+   > git status 
    
 * ***Projedeki yaptığınız tüm değişiklikleri kaydetmek için;*** 
 
-   -- git add .
+   > git add .
    
 * ***Projedeki yaptığınız tüm değişiklikleri not ile birlikte commit yapmak için;*** 
 
-   -- git commit -m "not alanı"
+   > git commit -m "not alanı"
 
 * ***Projedeki değişiklikleri githuba göndermek için / pull request için;*** 
 
-   -- git push
+   > git push
    
    
 * ***Ana projedeki tüm değişiklikleri kendinize geçmek için;***    
    
-   -- git pull
+   > git pull
 
 ##### Her düzenlemeyi yapan kişi ismine göre branch açsınve güncellemeleri onun içerisinde yapsın
 
 * ***yeni branch açmak için;***
 
-  -- git branch yenibranchismi
+  > git branch yenibranchismi
 
 
 * ***branchlar arası geçiş için;***
       
-  -- git checkout yenibranchismi
+  > git checkout yenibranchismi
 
    
 * ***hangi branchta olduğunuzu görmek için;***
 
-  -- git branch
+  > git branch
