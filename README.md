@@ -1,4 +1,4 @@
-* Git cheat sheet (türkçe) *
+* Git cheat sheet (türkçe)
  https://mustafadikyar.medium.com/git-github-cheatsheet-596ca9d90fa0
 
 
