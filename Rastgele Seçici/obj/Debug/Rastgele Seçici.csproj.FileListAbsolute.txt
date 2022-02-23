@@ -1,0 +1,42 @@
+D:\proce\v1\rastgelesecici\Rastgele Seçici\bin\Debug\Rastgele Seçici.exe.config
+D:\proce\v1\rastgelesecici\Rastgele Seçici\bin\Debug\Rastgele Seçici.exe
+D:\proce\v1\rastgelesecici\Rastgele Seçici\bin\Debug\Rastgele Seçici.pdb
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.AssemblyReference.cache
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.SuggestedBindingRedirects.cache
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form1.resources
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Properties.Resources.resources
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.GenerateResource.cache
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CoreCompileInputs.cache
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.exe
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.pdb
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form2.resources
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form3.resources
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.ResolveComReference.cache
+D:\proce\v1\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.dll
+D:\proce\v1\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.dll
+D:\proce\v1\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.pdb
+D:\proce\v1\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.xml
+D:\proce\v1\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.pdb
+D:\proce\v1\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.xml
+D:\proce\v1\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CopyComplete
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\bin\Debug\Rastgele Seçici.exe.config
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\bin\Debug\Rastgele Seçici.exe
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\bin\Debug\Rastgele Seçici.pdb
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.dll
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.pdb
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.xml
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.AssemblyReference.cache
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.SuggestedBindingRedirects.cache
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.ResolveComReference.cache
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form1.resources
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form2.resources
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form3.resources
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Properties.Resources.resources
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.GenerateResource.cache
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CoreCompileInputs.cache
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CopyComplete
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.exe
+C:\Users\Halim\Desktop\proje\rastgelesecici\Rastgele Seçici\obj\Debug\Rastgele Seçici.pdb
