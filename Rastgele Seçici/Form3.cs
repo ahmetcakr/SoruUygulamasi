@@ -34,8 +34,20 @@ namespace Rastgele_Seçici
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            label2.Text = Form2.hangisitiklandıs1.ToString();
-            richTextBox1.Text = Form2.hangisitiklandi1t.ToString();
+            if (Form2.btn_kontrol ==1)
+            {
+                label2.Text = Form2.hangisitiklandıs1.ToString();
+                richTextBox1.Text = Form2.hangisitiklandi1t.ToString();
+            }
+            else if(Form2.btn_kontrol == 2)
+            {
+                label2.Text = Form2.hangisitiklandıs2.ToString();
+                richTextBox1.Text = Form2.hangisitiklandi2t.ToString();
+            }
+            
+            
         }
+
+
     }
 }

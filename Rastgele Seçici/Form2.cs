@@ -24,6 +24,7 @@ namespace Rastgele_Seçici
         string[] soru_dizisi2;
         string dosyayolu;
         int maxsoru;
+        
         private void Form2_FormClosing(object sender, FormClosingEventArgs e)
         {
             DialogResult dialog = new DialogResult();
@@ -56,8 +57,10 @@ namespace Rastgele_Seçici
                     //sayfa1 buton ve sayıların gizlenmesi
 
                     s1n1_btn.Visible = true;
-
                     s1n1_txt.Visible = true;
+
+                    s2n1_btn.Visible = true;
+                    s2n1_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 2)
                 {
@@ -68,6 +71,14 @@ namespace Rastgele_Seçici
 
                     s1n1_txt.Visible = true;
                     s1n2_txt.Visible = true;
+
+                    // Sayfa 2 buton ve sayı gizlenmesi
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 3)
                 {
@@ -80,6 +91,16 @@ namespace Rastgele_Seçici
                     s1n1_txt.Visible = true;
                     s1n2_txt.Visible = true;
                     s1n3_txt.Visible = true;
+
+                    // Sayfa 2 buton ve sayı gizlenmesi
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 4)
                 {
@@ -1945,6 +1966,7 @@ namespace Rastgele_Seçici
             label45.Enabled = false;
             messagegizle();
             messagenumbergizle();
+            listBox2.Visible = false;
         }
         void messagenumbergizle()
         {
@@ -1991,6 +2013,47 @@ namespace Rastgele_Seçici
             s1n40_txt.Visible = false;
 
 
+            s2n1_txt.Visible = false;
+            s2n2_txt.Visible = false;
+            s2n3_txt.Visible = false;
+            s2n4_txt.Visible = false;
+            s2n5_txt.Visible = false;
+            s2n6_txt.Visible = false;
+            s2n7_txt.Visible = false;
+            s2n8_txt.Visible = false;
+            s2n9_txt.Visible = false;
+            s2n10_txt.Visible = false;
+            s2n11_txt.Visible = false;
+            s2n12_txt.Visible = false;
+            s2n13_txt.Visible = false;
+            s2n14_txt.Visible = false;
+            s2n15_txt.Visible = false;
+            s2n16_txt.Visible = false;
+            s2n17_txt.Visible = false;
+            s2n18_txt.Visible = false;
+            s2n19_txt.Visible = false;
+            s2n20_txt.Visible = false;
+            s2n21_txt.Visible = false;
+            s2n22_txt.Visible = false;
+            s2n23_txt.Visible = false;
+            s2n24_txt.Visible = false;
+            s2n25_txt.Visible = false;
+            s2n26_txt.Visible = false;
+            s2n27_txt.Visible = false;
+            s2n28_txt.Visible = false;
+            s2n29_txt.Visible = false;
+            s2n30_txt.Visible = false;
+            s2n31_txt.Visible = false;
+            s2n32_txt.Visible = false;
+            s2n33_txt.Visible = false;
+            s2n34_txt.Visible = false;
+            s2n35_txt.Visible = false;
+            s2n36_txt.Visible = false;
+            s2n37_txt.Visible = false;
+            s2n38_txt.Visible = false;
+            s2n39_txt.Visible = false;
+            s2n40_txt.Visible = false;
+
         }
         void messagegizle()
         {
@@ -2035,6 +2098,47 @@ namespace Rastgele_Seçici
             s1n38_btn.Visible = false;
             s1n39_btn.Visible = false;
             s1n40_btn.Visible = false;
+
+            s2n1_btn.Visible = false;
+            s2n2_btn.Visible = false;
+            s2n3_btn.Visible = false;
+            s2n4_btn.Visible = false;
+            s2n5_btn.Visible = false;
+            s2n6_btn.Visible = false;
+            s2n7_btn.Visible = false;
+            s2n8_btn.Visible = false;
+            s2n9_btn.Visible = false;
+            s2n10_btn.Visible = false;
+            s2n11_btn.Visible = false;
+            s2n12_btn.Visible = false;
+            s2n13_btn.Visible = false;
+            s2n14_btn.Visible = false;
+            s2n15_btn.Visible = false;
+            s2n16_btn.Visible = false;
+            s2n17_btn.Visible = false;
+            s2n18_btn.Visible = false;
+            s2n19_btn.Visible = false;
+            s2n20_btn.Visible = false;
+            s2n21_btn.Visible = false;
+            s2n22_btn.Visible = false;
+            s2n23_btn.Visible = false;
+            s2n24_btn.Visible = false;
+            s2n25_btn.Visible = false;
+            s2n26_btn.Visible = false;
+            s2n27_btn.Visible = false;
+            s2n28_btn.Visible = false;
+            s2n29_btn.Visible = false;
+            s2n30_btn.Visible = false;
+            s2n31_btn.Visible = false;
+            s2n32_btn.Visible = false;
+            s2n33_btn.Visible = false;
+            s2n34_btn.Visible = false;
+            s2n35_btn.Visible = false;
+            s2n36_btn.Visible = false;
+            s2n37_btn.Visible = false;
+            s2n38_btn.Visible = false;
+            s2n39_btn.Visible = false;
+            s2n40_btn.Visible = false;
         }
 
         private void txtbox_ogrsayi_KeyPress(object sender, KeyPressEventArgs e)
@@ -2725,6 +2829,7 @@ namespace Rastgele_Seçici
         //
 
         static public int hangisitiklandıs1 = 0;
+        static public int hangisitiklandıs2 = 0;
 
         private void label46_Click(object sender, EventArgs e)
         {
@@ -2737,10 +2842,29 @@ namespace Rastgele_Seçici
         }
 
         static public string hangisitiklandi1t = "";
+
+        static public string hangisitiklandi2t = "";
+
+        static public int btn_kontrol = 0;
+
+        private void s2n1_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 1;
+            s2n1_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+         private void s2n2_btn_Click(object sender, EventArgs e)
+         {
+            hangisitiklandıs2 = 2;
+            s2n2_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
         public void sormetot()
         {
+            
             try
             {
+                btn_kontrol = 1;
                 hangisitiklandi1t = soru_dizisi1[hangisitiklandıs1 - 1];
                 Form3 y = new Form3();
                 y.ShowDialog();
@@ -2748,6 +2872,27 @@ namespace Rastgele_Seçici
             catch (Exception)
             {
                 MessageBox.Show("Üzgünüz soru sayınız yetersiz! Maksimum soru sayınız : " + (listBox1.Items.Count + 1) + "'dir. Lütfen öğrenci sayınızı bu rakam olacak şekilde güncelleyiniz.", "Rastgele Seçici");
+
+            }
+
+
+        }
+
+       
+
+        public void sormetots2()
+        {
+            
+            try
+            {
+                btn_kontrol = 2;
+                hangisitiklandi2t = soru_dizisi2[hangisitiklandıs2 - 1];
+                Form3 y2 = new Form3();
+                y2.ShowDialog();
+            }
+            catch (Exception)
+            {
+                MessageBox.Show("Üzgünüz soru sayınız yetersiz! Maksimum soru sayınız : " + (listBox2.Items.Count + 1) + "'dir. Lütfen öğrenci sayınızı bu rakam olacak şekilde güncelleyiniz.", "Rastgele Seçici");
 
             }
 
