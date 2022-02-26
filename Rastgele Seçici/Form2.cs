@@ -115,6 +115,20 @@ namespace Rastgele_Seçici
                     s1n2_txt.Visible = true;
                     s1n3_txt.Visible = true;
                     s1n4_txt.Visible = true;
+
+                    //
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+
+
+
                 }
                 else if (ogrencisayisi == 5)
                 {
@@ -131,6 +145,24 @@ namespace Rastgele_Seçici
                     s1n3_txt.Visible = true;
                     s1n4_txt.Visible = true;
                     s1n5_txt.Visible = true;
+
+
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+
+
                 }
                 else if (ogrencisayisi == 6)
                 {
@@ -149,6 +181,23 @@ namespace Rastgele_Seçici
                     s1n4_txt.Visible = true;
                     s1n5_txt.Visible = true;
                     s1n6_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+
                 }
                 else if (ogrencisayisi == 7)
                 {
@@ -169,6 +218,24 @@ namespace Rastgele_Seçici
                     s1n5_txt.Visible = true;
                     s1n6_txt.Visible = true;
                     s1n7_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 8)
                 {
@@ -191,6 +258,27 @@ namespace Rastgele_Seçici
                     s1n6_txt.Visible = true;
                     s1n7_txt.Visible = true;
                     s1n8_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+
                 }
                 else if (ogrencisayisi == 9)
                 {
@@ -215,6 +303,28 @@ namespace Rastgele_Seçici
                     s1n7_txt.Visible = true;
                     s1n8_txt.Visible = true;
                     s1n9_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 10)
                 {
@@ -241,6 +351,30 @@ namespace Rastgele_Seçici
                     s1n8_txt.Visible = true;
                     s1n9_txt.Visible = true;
                     s1n10_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 11)
                 {
@@ -269,6 +403,32 @@ namespace Rastgele_Seçici
                     s1n9_txt.Visible = true;
                     s1n10_txt.Visible = true;
                     s1n11_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 12)
                 {
@@ -299,6 +459,34 @@ namespace Rastgele_Seçici
                     s1n10_txt.Visible = true;
                     s1n11_txt.Visible = true;
                     s1n12_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 13)
                 {
@@ -331,6 +519,36 @@ namespace Rastgele_Seçici
                     s1n11_txt.Visible = true;
                     s1n12_txt.Visible = true;
                     s1n13_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 14)
                 {
@@ -365,6 +583,38 @@ namespace Rastgele_Seçici
                     s1n12_txt.Visible = true;
                     s1n13_txt.Visible = true;
                     s1n14_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 15)
                 {
@@ -401,6 +651,40 @@ namespace Rastgele_Seçici
                     s1n13_txt.Visible = true;
                     s1n14_txt.Visible = true;
                     s1n15_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 16)
                 {
@@ -439,6 +723,42 @@ namespace Rastgele_Seçici
                     s1n14_txt.Visible = true;
                     s1n15_txt.Visible = true;
                     s1n16_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 17)
                 {
@@ -479,6 +799,44 @@ namespace Rastgele_Seçici
                     s1n15_txt.Visible = true;
                     s1n16_txt.Visible = true;
                     s1n17_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 18)
                 {
@@ -521,6 +879,46 @@ namespace Rastgele_Seçici
                     s1n16_txt.Visible = true;
                     s1n17_txt.Visible = true;
                     s1n18_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 19)
                 {
@@ -565,6 +963,48 @@ namespace Rastgele_Seçici
                     s1n17_txt.Visible = true;
                     s1n18_txt.Visible = true;
                     s1n19_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 20)
                 {
@@ -611,6 +1051,50 @@ namespace Rastgele_Seçici
                     s1n18_txt.Visible = true;
                     s1n19_txt.Visible = true;
                     s1n20_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 21)
                 {
@@ -659,6 +1143,52 @@ namespace Rastgele_Seçici
                     s1n19_txt.Visible = true;
                     s1n20_txt.Visible = true;
                     s1n21_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
                 }
                 else if (ogrencisayisi == 22)
                 {
@@ -709,6 +1239,57 @@ namespace Rastgele_Seçici
                     s1n20_txt.Visible = true;
                     s1n21_txt.Visible = true;
                     s1n22_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    
+                   
                 }
                 else if (ogrencisayisi == 23)
                 {
@@ -761,6 +1342,58 @@ namespace Rastgele_Seçici
                     s1n21_txt.Visible = true;
                     s1n22_txt.Visible = true;
                     s1n23_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 24)
                 {
@@ -815,6 +1448,60 @@ namespace Rastgele_Seçici
                     s1n22_txt.Visible = true;
                     s1n23_txt.Visible = true;
                     s1n24_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 25)
                 {
@@ -871,6 +1558,62 @@ namespace Rastgele_Seçici
                     s1n23_txt.Visible = true;
                     s1n24_txt.Visible = true;
                     s1n25_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 26)
                 {
@@ -929,6 +1672,64 @@ namespace Rastgele_Seçici
                     s1n24_txt.Visible = true;
                     s1n25_txt.Visible = true;
                     s1n26_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 27)
                 {
@@ -989,6 +1790,66 @@ namespace Rastgele_Seçici
                     s1n25_txt.Visible = true;
                     s1n26_txt.Visible = true;
                     s1n27_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 28)
                 {
@@ -1051,6 +1912,69 @@ namespace Rastgele_Seçici
                     s1n26_txt.Visible = true;
                     s1n27_txt.Visible = true;
                     s1n28_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    
+                    s2n40_btn.Visible = true;
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                   
                 }
                 else if (ogrencisayisi == 29)
                 {
@@ -1115,6 +2039,70 @@ namespace Rastgele_Seçici
                     s1n27_txt.Visible = true;
                     s1n28_txt.Visible = true;
                     s1n29_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                   
                 }
                 else if (ogrencisayisi == 30)
                 {
@@ -1181,6 +2169,72 @@ namespace Rastgele_Seçici
                     s1n28_txt.Visible = true;
                     s1n29_txt.Visible = true;
                     s1n30_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 31)
                 {
@@ -1249,6 +2303,74 @@ namespace Rastgele_Seçici
                     s1n29_txt.Visible = true;
                     s1n30_txt.Visible = true;
                     s1n31_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                   
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 32)
                 {
@@ -1319,6 +2441,76 @@ namespace Rastgele_Seçici
                     s1n30_txt.Visible = true;
                     s1n31_txt.Visible = true;
                     s1n32_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                    s2n32_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    s2n32_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 33)
                 {
@@ -1391,6 +2583,78 @@ namespace Rastgele_Seçici
                     s1n31_txt.Visible = true;
                     s1n32_txt.Visible = true;
                     s1n33_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                    s2n32_btn.Visible = true;
+                    s2n33_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    s2n32_txt.Visible = true;
+                    s2n33_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 34)
                 {
@@ -1465,6 +2729,78 @@ namespace Rastgele_Seçici
                     s1n32_txt.Visible = true;
                     s1n33_txt.Visible = true;
                     s1n34_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                    s2n32_btn.Visible = true;
+                    s2n33_btn.Visible = true;
+                    s2n34_btn.Visible = true;
+                    
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    s2n32_txt.Visible = true;
+                    s2n33_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 35)
                 {
@@ -1541,6 +2877,82 @@ namespace Rastgele_Seçici
                     s1n33_txt.Visible = true;
                     s1n34_txt.Visible = true;
                     s1n35_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                    s2n32_btn.Visible = true;
+                    s2n33_btn.Visible = true;
+                    s2n34_btn.Visible = true;
+                    s2n35_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    s2n32_txt.Visible = true;
+                    s2n33_txt.Visible = true;
+                    s2n34_txt.Visible = true;
+                    s2n35_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 36)
                 {
@@ -1619,6 +3031,84 @@ namespace Rastgele_Seçici
                     s1n34_txt.Visible = true;
                     s1n35_txt.Visible = true;
                     s1n36_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                    s2n32_btn.Visible = true;
+                    s2n33_btn.Visible = true;
+                    s2n34_btn.Visible = true;
+                    s2n35_btn.Visible = true;
+                    s2n36_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    s2n32_txt.Visible = true;
+                    s2n33_txt.Visible = true;
+                    s2n34_txt.Visible = true;
+                    s2n35_txt.Visible = true;
+                    s2n36_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 37)
                 {
@@ -1698,6 +3188,86 @@ namespace Rastgele_Seçici
                     s1n35_txt.Visible = true;
                     s1n36_txt.Visible = true;
                     s1n37_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                    s2n32_btn.Visible = true;
+                    s2n33_btn.Visible = true;
+                    s2n34_btn.Visible = true;
+                    s2n35_btn.Visible = true;
+                    s2n36_btn.Visible = true;
+                    s2n37_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    s2n32_txt.Visible = true;
+                    s2n33_txt.Visible = true;
+                    s2n34_txt.Visible = true;
+                    s2n35_txt.Visible = true;
+                    s2n36_txt.Visible = true;
+                    s2n37_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 38)
                 {
@@ -1779,6 +3349,88 @@ namespace Rastgele_Seçici
                     s1n36_txt.Visible = true;
                     s1n37_txt.Visible = true;
                     s1n38_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                    s2n32_btn.Visible = true;
+                    s2n33_btn.Visible = true;
+                    s2n34_btn.Visible = true;
+                    s2n35_btn.Visible = true;
+                    s2n36_btn.Visible = true;
+                    s2n37_btn.Visible = true;
+                    s2n38_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    s2n32_txt.Visible = true;
+                    s2n33_txt.Visible = true;
+                    s2n34_txt.Visible = true;
+                    s2n35_txt.Visible = true;
+                    s2n36_txt.Visible = true;
+                    s2n37_txt.Visible = true;
+                    s2n38_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 39)
                 {
@@ -1862,6 +3514,90 @@ namespace Rastgele_Seçici
                     s1n37_txt.Visible = true;
                     s1n38_txt.Visible = true;
                     s1n39_txt.Visible = true;
+
+                    //
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                    s2n32_btn.Visible = true;
+                    s2n33_btn.Visible = true;
+                    s2n34_btn.Visible = true;
+                    s2n35_btn.Visible = true;
+                    s2n36_btn.Visible = true;
+                    s2n37_btn.Visible = true;
+                    s2n38_btn.Visible = true;
+                    s2n39_btn.Visible = true;
+                    
+
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    s2n32_txt.Visible = true;
+                    s2n33_txt.Visible = true;
+                    s2n34_txt.Visible = true;
+                    s2n35_txt.Visible = true;
+                    s2n36_txt.Visible = true;
+                    s2n37_txt.Visible = true;
+                    s2n38_txt.Visible = true;
+                    s2n39_txt.Visible = true;
+                    
                 }
                 else if (ogrencisayisi == 40)
                 {
@@ -1947,6 +3683,95 @@ namespace Rastgele_Seçici
                     s1n38_txt.Visible = true;
                     s1n39_txt.Visible = true;
                     s1n40_txt.Visible = true;
+
+
+                    //
+
+
+
+                    s2n1_btn.Visible = true;
+                    s2n2_btn.Visible = true;
+                    s2n3_btn.Visible = true;
+                    s2n4_btn.Visible = true;
+                    s2n5_btn.Visible = true;
+                    s2n6_btn.Visible = true;
+                    s2n7_btn.Visible = true;
+                    s2n8_btn.Visible = true;
+                    s2n9_btn.Visible = true;
+                    s2n10_btn.Visible = true;
+                    s2n11_btn.Visible = true;
+                    s2n12_btn.Visible = true;
+                    s2n13_btn.Visible = true;
+                    s2n14_btn.Visible = true;
+                    s2n15_btn.Visible = true;
+                    s2n16_btn.Visible = true;
+                    s2n17_btn.Visible = true;
+                    s2n18_btn.Visible = true;
+                    s2n19_btn.Visible = true;
+                    s2n20_btn.Visible = true;
+                    s2n21_btn.Visible = true;
+                    s2n22_btn.Visible = true;
+                    s2n23_btn.Visible = true;
+                    s2n24_btn.Visible = true;
+                    s2n25_btn.Visible = true;
+                    s2n26_btn.Visible = true;
+                    s2n27_btn.Visible = true;
+                    s2n28_btn.Visible = true;
+                    s2n29_btn.Visible = true;
+                    s2n30_btn.Visible = true;
+                    s2n31_btn.Visible = true;
+                    s2n32_btn.Visible = true;
+                    s2n33_btn.Visible = true;
+                    s2n34_btn.Visible = true;
+                    s2n35_btn.Visible = true;
+                    s2n36_btn.Visible = true;
+                    s2n37_btn.Visible = true;
+                    s2n38_btn.Visible = true;
+                    s2n39_btn.Visible = true;
+                    s2n40_btn.Visible = true;
+                
+                    s2n1_txt.Visible = true;
+                    s2n2_txt.Visible = true;
+                    s2n3_txt.Visible = true;
+                    s2n4_txt.Visible = true;
+                    s2n5_txt.Visible = true;
+                    s2n6_txt.Visible = true;
+                    s2n7_txt.Visible = true;
+                    s2n8_txt.Visible = true;
+                    s2n9_txt.Visible = true;
+                    s2n10_txt.Visible = true;
+                    s2n11_txt.Visible = true;
+                    s2n12_txt.Visible = true;
+                    s2n13_txt.Visible = true;
+                    s2n14_txt.Visible = true;
+                    s2n15_txt.Visible = true;
+                    s2n16_txt.Visible = true;
+                    s2n17_txt.Visible = true;
+                    s2n18_txt.Visible = true;
+                    s2n19_txt.Visible = true;
+                    s2n20_txt.Visible = true;
+                    s2n21_txt.Visible = true;
+                    s2n22_txt.Visible = true;
+                    s2n23_txt.Visible = true;
+                    s2n24_txt.Visible = true;
+                    s2n25_txt.Visible = true;
+                    s2n26_txt.Visible = true;
+                    s2n27_txt.Visible = true;
+                    s2n28_txt.Visible = true;
+                    s2n29_txt.Visible = true;
+                    s2n30_txt.Visible = true;
+                    s2n31_txt.Visible = true;
+                    s2n32_txt.Visible = true;
+                    s2n33_txt.Visible = true;
+                    s2n34_txt.Visible = true;
+                    s2n35_txt.Visible = true;
+                    s2n36_txt.Visible = true;
+                    s2n37_txt.Visible = true;
+                    s2n38_txt.Visible = true;
+                    s2n39_txt.Visible = true;
+                    s2n40_txt.Visible = true;
+
+
                 }
                 if (sart1 == true && sart2 == true)
                 {
@@ -2511,6 +4336,7 @@ namespace Rastgele_Seçici
                                 soru_dizisi1[i] = listBox1.Items[i].ToString();
                             }
 
+
                             maxsoru = listBox1.Items.Count;
                             //maksimum girilebilecek öğrenci sayısını tanımlarsın.
                             if (maxsoru <= 40)
@@ -2527,6 +4353,7 @@ namespace Rastgele_Seçici
                             }
                             //
                             label45.Text = "Dosya Adı : " + fileName;
+
                         }
                     }
                 }
@@ -2845,7 +4672,7 @@ namespace Rastgele_Seçici
 
         static public string hangisitiklandi2t = "";
 
-        static public int btn_kontrol = 0;
+        static public int btn_kontrol = 0;  // form3 deki kontrol için kullanılıyor butonun tıkladığı sayfaya göre değer alıyor. Örneğin sayfa2 deki buton 2 değeri döndürüyor
 
         private void s2n1_btn_Click(object sender, EventArgs e)
         {
@@ -2878,7 +4705,271 @@ namespace Rastgele_Seçici
 
         }
 
-       
+        private void s2n3_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 3;
+            s2n3_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n4_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 4;
+            s2n4_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n5_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 5;
+            s2n5_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n6_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 6;
+            s2n6_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n7_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 7;
+            s2n7_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n8_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 8;
+            s2n8_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n9_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 9;
+            s2n9_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n10_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 10;
+            s2n10_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n11_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 11;
+            s2n11_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n12_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 12;
+            s2n12_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n13_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 13;
+            s2n13_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n14_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 14;
+            s2n14_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n15_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 15;
+            s2n15_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n16_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 16;
+            s2n16_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n17_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 17;
+            s2n17_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n18_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 18;
+            s2n18_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n19_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 19;
+            s2n19_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n20_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 20;
+            s2n20_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n21_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 21;
+            s2n21_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n22_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 22;
+            s2n22_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n23_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 23;
+            s2n23_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n24_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 24;
+            s2n24_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n25_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 25;
+            s2n25_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n26_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 26;
+            s2n26_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n27_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 27;
+            s2n27_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n28_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 28;
+            s2n28_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n29_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 29;
+            s2n29_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n30_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 30;
+            s2n30_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n31_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 31;
+            s2n31_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n32_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 32;
+            s2n32_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n33_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 33;
+            s2n33_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n34_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 34;
+            s2n34_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n35_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 35;
+            s2n35_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n36_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 36;
+            s2n36_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n37_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 37;
+            s2n37_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n38_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 38;
+            s2n38_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n39_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 39;
+            s2n39_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
+
+        private void s2n40_btn_Click(object sender, EventArgs e)
+        {
+            hangisitiklandıs2 = 40;
+            s2n40_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            sormetots2();
+        }
 
         public void sormetots2()
         {
@@ -2887,8 +4978,8 @@ namespace Rastgele_Seçici
             {
                 btn_kontrol = 2;
                 hangisitiklandi2t = soru_dizisi2[hangisitiklandıs2 - 1];
-                Form3 y2 = new Form3();
-                y2.ShowDialog();
+                Form3 y = new Form3();
+                y.ShowDialog();
             }
             catch (Exception)
             {

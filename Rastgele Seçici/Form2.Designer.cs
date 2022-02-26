@@ -1908,6 +1908,7 @@
             this.s2n12_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n12_btn.TabIndex = 51;
             this.s2n12_btn.TabStop = false;
+            this.s2n12_btn.Click += new System.EventHandler(this.s2n12_btn_Click);
             // 
             // s2n24_btn
             // 
@@ -1920,6 +1921,7 @@
             this.s2n24_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n24_btn.TabIndex = 52;
             this.s2n24_btn.TabStop = false;
+            this.s2n24_btn.Click += new System.EventHandler(this.s2n24_btn_Click);
             // 
             // s2n16_btn
             // 
@@ -1932,6 +1934,7 @@
             this.s2n16_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n16_btn.TabIndex = 53;
             this.s2n16_btn.TabStop = false;
+            this.s2n16_btn.Click += new System.EventHandler(this.s2n16_btn_Click);
             // 
             // s2n14_btn
             // 
@@ -1944,6 +1947,7 @@
             this.s2n14_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n14_btn.TabIndex = 54;
             this.s2n14_btn.TabStop = false;
+            this.s2n14_btn.Click += new System.EventHandler(this.s2n14_btn_Click);
             // 
             // s2n22_btn
             // 
@@ -1956,6 +1960,7 @@
             this.s2n22_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n22_btn.TabIndex = 55;
             this.s2n22_btn.TabStop = false;
+            this.s2n22_btn.Click += new System.EventHandler(this.s2n22_btn_Click);
             // 
             // s2n10_btn
             // 
@@ -1968,6 +1973,7 @@
             this.s2n10_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n10_btn.TabIndex = 56;
             this.s2n10_btn.TabStop = false;
+            this.s2n10_btn.Click += new System.EventHandler(this.s2n10_btn_Click);
             // 
             // s2n20_btn
             // 
@@ -1980,6 +1986,7 @@
             this.s2n20_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n20_btn.TabIndex = 42;
             this.s2n20_btn.TabStop = false;
+            this.s2n20_btn.Click += new System.EventHandler(this.s2n20_btn_Click);
             // 
             // s2n8_btn
             // 
@@ -1992,6 +1999,7 @@
             this.s2n8_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n8_btn.TabIndex = 70;
             this.s2n8_btn.TabStop = false;
+            this.s2n8_btn.Click += new System.EventHandler(this.s2n8_btn_Click);
             // 
             // s2n28_btn
             // 
@@ -2004,6 +2012,7 @@
             this.s2n28_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n28_btn.TabIndex = 57;
             this.s2n28_btn.TabStop = false;
+            this.s2n28_btn.Click += new System.EventHandler(this.s2n28_btn_Click);
             // 
             // s2n18_btn
             // 
@@ -2016,6 +2025,7 @@
             this.s2n18_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n18_btn.TabIndex = 49;
             this.s2n18_btn.TabStop = false;
+            this.s2n18_btn.Click += new System.EventHandler(this.s2n18_btn_Click);
             // 
             // s2n26_btn
             // 
@@ -2028,6 +2038,7 @@
             this.s2n26_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n26_btn.TabIndex = 47;
             this.s2n26_btn.TabStop = false;
+            this.s2n26_btn.Click += new System.EventHandler(this.s2n26_btn_Click);
             // 
             // s2n30_btn
             // 
@@ -2040,6 +2051,7 @@
             this.s2n30_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n30_btn.TabIndex = 46;
             this.s2n30_btn.TabStop = false;
+            this.s2n30_btn.Click += new System.EventHandler(this.s2n30_btn_Click);
             // 
             // s2n4_btn
             // 
@@ -2052,6 +2064,7 @@
             this.s2n4_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n4_btn.TabIndex = 45;
             this.s2n4_btn.TabStop = false;
+            this.s2n4_btn.Click += new System.EventHandler(this.s2n4_btn_Click);
             // 
             // s2n6_btn
             // 
@@ -2064,6 +2077,7 @@
             this.s2n6_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n6_btn.TabIndex = 44;
             this.s2n6_btn.TabStop = false;
+            this.s2n6_btn.Click += new System.EventHandler(this.s2n6_btn_Click);
             // 
             // s2n2_btn
             // 
@@ -2089,6 +2103,7 @@
             this.s2n34_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n34_btn.TabIndex = 59;
             this.s2n34_btn.TabStop = false;
+            this.s2n34_btn.Click += new System.EventHandler(this.s2n34_btn_Click);
             // 
             // s2n38_btn
             // 
@@ -2101,6 +2116,7 @@
             this.s2n38_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n38_btn.TabIndex = 41;
             this.s2n38_btn.TabStop = false;
+            this.s2n38_btn.Click += new System.EventHandler(this.s2n38_btn_Click);
             // 
             // s2n32_btn
             // 
@@ -2113,6 +2129,7 @@
             this.s2n32_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n32_btn.TabIndex = 48;
             this.s2n32_btn.TabStop = false;
+            this.s2n32_btn.Click += new System.EventHandler(this.s2n32_btn_Click);
             // 
             // s2n36_btn
             // 
@@ -2125,6 +2142,7 @@
             this.s2n36_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n36_btn.TabIndex = 58;
             this.s2n36_btn.TabStop = false;
+            this.s2n36_btn.Click += new System.EventHandler(this.s2n36_btn_Click);
             // 
             // s2n39_btn
             // 
@@ -2137,6 +2155,7 @@
             this.s2n39_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n39_btn.TabIndex = 68;
             this.s2n39_btn.TabStop = false;
+            this.s2n39_btn.Click += new System.EventHandler(this.s2n39_btn_Click);
             // 
             // s2n37_btn
             // 
@@ -2149,6 +2168,7 @@
             this.s2n37_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n37_btn.TabIndex = 60;
             this.s2n37_btn.TabStop = false;
+            this.s2n37_btn.Click += new System.EventHandler(this.s2n37_btn_Click);
             // 
             // s2n33_btn
             // 
@@ -2161,6 +2181,7 @@
             this.s2n33_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n33_btn.TabIndex = 72;
             this.s2n33_btn.TabStop = false;
+            this.s2n33_btn.Click += new System.EventHandler(this.s2n33_btn_Click);
             // 
             // s2n35_btn
             // 
@@ -2173,6 +2194,7 @@
             this.s2n35_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n35_btn.TabIndex = 79;
             this.s2n35_btn.TabStop = false;
+            this.s2n35_btn.Click += new System.EventHandler(this.s2n35_btn_Click);
             // 
             // s2n29_btn
             // 
@@ -2185,6 +2207,7 @@
             this.s2n29_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n29_btn.TabIndex = 78;
             this.s2n29_btn.TabStop = false;
+            this.s2n29_btn.Click += new System.EventHandler(this.s2n29_btn_Click);
             // 
             // s2n3_btn
             // 
@@ -2197,6 +2220,7 @@
             this.s2n3_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n3_btn.TabIndex = 77;
             this.s2n3_btn.TabStop = false;
+            this.s2n3_btn.Click += new System.EventHandler(this.s2n3_btn_Click);
             // 
             // s2n40_btn
             // 
@@ -2209,6 +2233,7 @@
             this.s2n40_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n40_btn.TabIndex = 76;
             this.s2n40_btn.TabStop = false;
+            this.s2n40_btn.Click += new System.EventHandler(this.s2n40_btn_Click);
             // 
             // s2n1_btn
             // 
@@ -2234,6 +2259,7 @@
             this.s2n7_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n7_btn.TabIndex = 71;
             this.s2n7_btn.TabStop = false;
+            this.s2n7_btn.Click += new System.EventHandler(this.s2n7_btn_Click);
             // 
             // s2n27_btn
             // 
@@ -2246,6 +2272,7 @@
             this.s2n27_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n27_btn.TabIndex = 73;
             this.s2n27_btn.TabStop = false;
+            this.s2n27_btn.Click += new System.EventHandler(this.s2n27_btn_Click);
             // 
             // s2n31_btn
             // 
@@ -2258,6 +2285,7 @@
             this.s2n31_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n31_btn.TabIndex = 74;
             this.s2n31_btn.TabStop = false;
+            this.s2n31_btn.Click += new System.EventHandler(this.s2n31_btn_Click);
             // 
             // s2n25_btn
             // 
@@ -2270,6 +2298,7 @@
             this.s2n25_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n25_btn.TabIndex = 69;
             this.s2n25_btn.TabStop = false;
+            this.s2n25_btn.Click += new System.EventHandler(this.s2n25_btn_Click);
             // 
             // s2n23_btn
             // 
@@ -2282,6 +2311,7 @@
             this.s2n23_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n23_btn.TabIndex = 67;
             this.s2n23_btn.TabStop = false;
+            this.s2n23_btn.Click += new System.EventHandler(this.s2n23_btn_Click);
             // 
             // s2n21_btn
             // 
@@ -2294,6 +2324,7 @@
             this.s2n21_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n21_btn.TabIndex = 66;
             this.s2n21_btn.TabStop = false;
+            this.s2n21_btn.Click += new System.EventHandler(this.s2n21_btn_Click);
             // 
             // s2n5_btn
             // 
@@ -2306,6 +2337,7 @@
             this.s2n5_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n5_btn.TabIndex = 65;
             this.s2n5_btn.TabStop = false;
+            this.s2n5_btn.Click += new System.EventHandler(this.s2n5_btn_Click);
             // 
             // s2n19_btn
             // 
@@ -2317,6 +2349,7 @@
             this.s2n19_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n19_btn.TabIndex = 64;
             this.s2n19_btn.TabStop = false;
+            this.s2n19_btn.Click += new System.EventHandler(this.s2n19_btn_Click);
             // 
             // s2n15_btn
             // 
@@ -2329,6 +2362,7 @@
             this.s2n15_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n15_btn.TabIndex = 63;
             this.s2n15_btn.TabStop = false;
+            this.s2n15_btn.Click += new System.EventHandler(this.s2n15_btn_Click);
             // 
             // s2n11_btn
             // 
@@ -2341,6 +2375,7 @@
             this.s2n11_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n11_btn.TabIndex = 62;
             this.s2n11_btn.TabStop = false;
+            this.s2n11_btn.Click += new System.EventHandler(this.s2n11_btn_Click);
             // 
             // s2n13_btn
             // 
@@ -2352,6 +2387,7 @@
             this.s2n13_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n13_btn.TabIndex = 61;
             this.s2n13_btn.TabStop = false;
+            this.s2n13_btn.Click += new System.EventHandler(this.s2n13_btn_Click);
             // 
             // s2n17_btn
             // 
@@ -2363,6 +2399,7 @@
             this.s2n17_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n17_btn.TabIndex = 50;
             this.s2n17_btn.TabStop = false;
+            this.s2n17_btn.Click += new System.EventHandler(this.s2n17_btn_Click);
             // 
             // s2n9_btn
             // 
@@ -2374,6 +2411,7 @@
             this.s2n9_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.s2n9_btn.TabIndex = 40;
             this.s2n9_btn.TabStop = false;
+            this.s2n9_btn.Click += new System.EventHandler(this.s2n9_btn_Click);
             // 
             // listBox2
             // 
