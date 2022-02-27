@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "8ff5fb5a-2e94-432e-b0d2-e3ad40c563bb": {
+      "ProjectGuid": "8ff5fb5a-2e94-432e-b0d2-e3ad40c563bb",
+      "DisplayName": "Rastgele Seçici",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

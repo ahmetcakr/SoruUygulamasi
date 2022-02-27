@@ -159,3 +159,23 @@ C:\Users\Acer\Desktop\Proje\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.G
 C:\Users\Acer\Desktop\Proje\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CoreCompileInputs.cache
 C:\Users\Acer\Desktop\Proje\Rastgele Seçici\obj\Debug\Rastgele Seçici.exe
 C:\Users\Acer\Desktop\Proje\Rastgele Seçici\obj\Debug\Rastgele Seçici.pdb
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\bin\Debug\Rastgele Seçici.exe.config
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\bin\Debug\Rastgele Seçici.exe
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\bin\Debug\Rastgele Seçici.pdb
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\bin\Debug\ExcelDataReader.dll
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\bin\Debug\ExcelDataReader.pdb
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\bin\Debug\ExcelDataReader.xml
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.AssemblyReference.cache
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.ResolveComReference.cache
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form1.resources
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form2.resources
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form3.resources
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Properties.Resources.resources
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.GenerateResource.cache
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CopyComplete
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele Seçici.exe
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele Seçici.pdb

@@ -117,12 +117,6 @@
     <None Include="Resources\5a18f8a5f62.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\1.png" />
-  </ItemGroup>
-  <ItemGroup>
     <COMReference Include="Microsoft.Office.Core">
       <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
       <VersionMajor>2</VersionMajor>
@@ -153,6 +147,14 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\5a18f8a5f621.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compasses.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Adsız tasarım %283%29.png" />
+    <None Include="Resources\go-back-arrow.png" />
+    <None Include="Resources\c2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -5846,14 +5846,14 @@ namespace Rastgele_Seçici
         private void s1n1_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 1;
-            s1n1_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n1_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n9_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 9;
-            s1n9_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n9_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
 
         }
@@ -5861,7 +5861,7 @@ namespace Rastgele_Seçici
         private void s1n17_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 17;
-            s1n17_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n17_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
 
         }
@@ -5869,252 +5869,252 @@ namespace Rastgele_Seçici
         private void s1n5_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 5;
-            s1n5_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n5_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n31_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 31;
-            s1n31_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n31_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n40_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 40;
-            s1n40_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n40_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n33_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 33;
-            s1n33_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n33_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n32_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 32;
-            s1n32_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n32_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n6_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 6;
-            s1n6_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n6_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n18_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 18;
-            s1n18_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n18_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n10_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 10;
-            s1n10_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n10_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n13_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 13;
-            s1n13_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n13_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n19_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 19;
-            s1n19_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n19_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n25_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 25;
-            s1n25_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n25_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n35_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 35;
-            s1n35_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n35_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n36_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 36;
-            s1n36_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n36_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n2_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 2;
-            s1n2_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n2_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n26_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 26;
-            s1n26_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n26_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n20_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 20;
-            s1n20_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n20_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n14_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 14;
-            s1n14_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n14_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n15_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 15;
-            s1n15_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n15_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n21_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 21;
-            s1n21_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n21_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n27_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 27;
-            s1n27_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n27_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n3_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 3;
-            s1n3_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n3_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n37_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 37;
-            s1n37_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n37_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n38_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 38;
-            s1n38_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n38_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n4_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 4;
-            s1n4_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n4_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n28_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 28;
-            s1n28_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n28_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n22_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 22;
-            s1n22_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n22_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n16_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 16;
-            s1n16_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n16_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n11_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 11;
-            s1n11_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n11_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n23_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 23;
-            s1n23_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n23_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n7_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 7;
-            s1n7_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n7_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n29_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 29;
-            s1n29_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n29_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n39_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 39;
-            s1n39_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n39_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n34_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 34;
-            s1n34_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n34_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n30_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 30;
-            s1n30_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n30_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n8_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 8;
-            s1n8_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n8_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
         private void s1n24_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 24;
-            s1n24_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n24_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
@@ -6126,7 +6126,7 @@ namespace Rastgele_Seçici
         private void s1n12_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 12;
-            s1n12_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s1n12_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetot();
         }
 
@@ -6579,13 +6579,13 @@ namespace Rastgele_Seçici
         private void s2n1_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 1;
-            s2n1_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n1_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
         private void s2n2_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 2;
-            s2n2_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n2_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
         public void sormetot()
@@ -6610,266 +6610,266 @@ namespace Rastgele_Seçici
         private void s2n3_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 3;
-            s2n3_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n3_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n4_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 4;
-            s2n4_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n4_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n5_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 5;
-            s2n5_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n5_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n6_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 6;
-            s2n6_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n6_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n7_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 7;
-            s2n7_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n7_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n8_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 8;
-            s2n8_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n8_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n9_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 9;
-            s2n9_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n9_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n10_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 10;
-            s2n10_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n10_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n11_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 11;
-            s2n11_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n11_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n12_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 12;
-            s2n12_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n12_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n13_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 13;
-            s2n13_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n13_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n14_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 14;
-            s2n14_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n14_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n15_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 15;
-            s2n15_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n15_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n16_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 16;
-            s2n16_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n16_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n17_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 17;
-            s2n17_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n17_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n18_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 18;
-            s2n18_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n18_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n19_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 19;
-            s2n19_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n19_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n20_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 20;
-            s2n20_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n20_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n21_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 21;
-            s2n21_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n21_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n22_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 22;
-            s2n22_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n22_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n23_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 23;
-            s2n23_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n23_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n24_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 24;
-            s2n24_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n24_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n25_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 25;
-            s2n25_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n25_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n26_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 26;
-            s2n26_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n26_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n27_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 27;
-            s2n27_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n27_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n28_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 28;
-            s2n28_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n28_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n29_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 29;
-            s2n29_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n29_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n30_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 30;
-            s2n30_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n30_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n31_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 31;
-            s2n31_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n31_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n32_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 32;
-            s2n32_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n32_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n33_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 33;
-            s2n33_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n33_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n34_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 34;
-            s2n34_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n34_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n35_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 35;
-            s2n35_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n35_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n36_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 36;
-            s2n36_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n36_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n37_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 37;
-            s2n37_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n37_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n38_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 38;
-            s2n38_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n38_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n39_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 39;
-            s2n39_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n39_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
         private void s2n40_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs2 = 40;
-            s2n40_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s2n40_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots2();
         }
 
@@ -6909,14 +6909,14 @@ namespace Rastgele_Seçici
         private void s3n9_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 9;
-            s3n9_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n9_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n17_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 17;
-            s3n17_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n17_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
 
         }
@@ -6924,161 +6924,161 @@ namespace Rastgele_Seçici
         private void s3n5_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 5;
-            s3n5_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n5_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n31_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs1 = 31;
-            s3n31_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n31_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n40_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 40;
-            s3n40_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n40_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n33_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 33;
-            s3n33_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n33_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n32_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 32;
-            s3n32_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n32_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n1_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 1;
-            s3n1_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n1_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n6_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 6;
-            s3n6_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n6_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n18_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 18;
-            s3n18_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n18_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n10_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 10;
-            s3n10_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n10_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n13_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 13;
-            s3n13_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n13_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n19_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 19;
-            s3n19_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n19_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n25_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 25;
-            s3n25_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n25_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n35_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 35;
-            s3n35_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n35_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n36_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 36;
-            s3n36_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n36_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n2_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 2;
-            s3n2_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n2_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n26_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 26;
-            s3n26_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n26_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n20_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 20;
-            s3n20_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n20_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n14_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 14;
-            s3n14_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n14_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n15_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 15;
-            s3n15_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n15_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n21_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 21;
-            s3n21_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n21_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n27_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 27;
-            s3n27_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n27_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n3_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 3;
-            s3n3_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n3_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n37_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 37;
-            s3n37_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n37_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
 
         }
@@ -7086,105 +7086,105 @@ namespace Rastgele_Seçici
         private void s3n38_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 38;
-            s3n38_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n38_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n4_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 4;
-            s3n4_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n4_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n28_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 28;
-            s3n28_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n28_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n22_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 22;
-            s3n22_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n22_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n16_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 16;
-            s3n16_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n16_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n11_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 11;
-            s3n11_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n11_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n23_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 23;
-            s3n23_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n23_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n7_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 7;
-            s3n7_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n7_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n29_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 29;
-            s3n29_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n29_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n39_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 39;
-            s3n39_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n39_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n34_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 34;
-            s3n34_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n34_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n30_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 30;
-            s3n30_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n30_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n8_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 8;
-            s3n8_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n8_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n24_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 24;
-            s3n24_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n24_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
         private void s3n12_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 12;
-            s3n12_btn.Image = Rastgele_Seçici.Properties.Resources._1;
+            s3n12_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
         }
 
