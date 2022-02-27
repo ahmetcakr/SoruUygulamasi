@@ -92,6 +92,9 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -163,6 +166,9 @@
   <ItemGroup>
     <Content Include="ekran_g__r__nt__s___2022_02_22_150208_EQW_icon.ico" />
     <Content Include="Resources\Adsız tasarım %283%29.png" />
+    <None Include="Resources\Yeni Microsoft Word Belgesi %281%29-2.png" />
+    <None Include="Resources\Yeni Microsoft Word Belgesi %281%29-1.png" />
+    <None Include="Resources\user-guide.png" />
     <None Include="Resources\go-back-arrow.png" />
     <None Include="Resources\c2.png" />
   </ItemGroup>

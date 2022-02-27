@@ -200,3 +200,4 @@ C:\Users\Halim\Desktop\Hemsin\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele
 C:\Users\Halim\Desktop\Hemsin\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CopyComplete
 C:\Users\Halim\Desktop\Hemsin\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.exe
 C:\Users\Halim\Desktop\Hemsin\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.pdb
+C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form4.resources

@@ -16,5 +16,17 @@ namespace Rastgele_Seçici
         {
             InitializeComponent();
         }
+
+
+      /*  private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+            panel1.AutoScroll = true;
+           // picture.SizeMode = PictureBoxSizeMode.AutoSize;
+        }
+
+       /* private void picture_Click(object sender, EventArgs e)
+        {
+            picture.SizeMode = PictureBoxSizeMode.AutoSize;
+        }*/
     }
 }
