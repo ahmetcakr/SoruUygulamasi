@@ -57,5682 +57,5688 @@ namespace Rastgele_Seçici
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (Convert.ToInt32(txtbox_ogrsayi.Text) >= 1 && Convert.ToInt32(txtbox_ogrsayi.Text) <= maxsoru)
+            
+            if (controller == 1 && label2.Text== "Excel Dosyası Seçildi.")
             {
-                messagegizle();
-                messagenumbergizle();
-                sart1 = true;
-                ogrencisayisi = Convert.ToInt32(txtbox_ogrsayi.Text);
-                if (ogrencisayisi == 1)
+                if (Convert.ToInt32(txtbox_ogrsayi.Text) >= 1 && Convert.ToInt32(txtbox_ogrsayi.Text) <= maxsoru)
                 {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n1_txt.Visible = true;
-
-                    if (checkBox1.Checked == true)
+                    messagegizle();
+                    messagenumbergizle();
+                    sart1 = true;
+                    ogrencisayisi = Convert.ToInt32(txtbox_ogrsayi.Text);
+                    if (ogrencisayisi == 1)
                     {
-                        //page 2
+                        //sayfa1 buton ve sayıların gizlenmesi
 
-                        s2n1_btn.Visible = true;
-                        s2n1_txt.Visible = true;
+                        s1n1_btn.Visible = true;
+                        s1n1_txt.Visible = true;
 
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n1_txt.Visible = true;
+                        if (checkBox1.Checked == true)
+                        {
+                            //page 2
+
+                            s2n1_btn.Visible = true;
+                            s2n1_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n1_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 2)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            // Sayfa 2 buton ve sayı gizlenmesi
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+
+                            // page 3 
+
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 3)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            // Sayfa 2 buton ve sayı gizlenmesi
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+
+                            //page 3 
+
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 4)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                        }
+
+
+
+                    }
+                    else if (ogrencisayisi == 5)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+
+
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                        }
+
+
+                    }
+                    else if (ogrencisayisi == 6)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+
+                            //page 3 
+
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 7)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            //page 3 
+
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 8)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            //page 3 
+
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 9)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 10)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+
+                            //page 3 
+
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 11)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+
+                            //page 3 
+
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 12)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 13)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 14)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 15)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 16)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 17)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 18)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 19)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 20)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 21)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                        }
+                    }
+                    else if (ogrencisayisi == 22)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                        }
+
+
+                    }
+                    else if (ogrencisayisi == 23)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 24)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 25)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 26)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 27)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 28)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+
+                            s2n40_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 29)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 30)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 31)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 32)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+                        s1n32_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+                        s1n32_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+                            s2n32_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+                            s2n32_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+                            s3n32_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                            s3n32_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 33)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+                        s1n32_btn.Visible = true;
+                        s1n33_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+                        s1n32_txt.Visible = true;
+                        s1n33_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+                            s2n32_btn.Visible = true;
+                            s2n33_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+                            s2n32_txt.Visible = true;
+                            s2n33_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+                            s3n32_btn.Visible = true;
+                            s3n33_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                            s3n32_txt.Visible = true;
+                            s3n33_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 34)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+                        s1n32_btn.Visible = true;
+                        s1n33_btn.Visible = true;
+                        s1n34_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+                        s1n32_txt.Visible = true;
+                        s1n33_txt.Visible = true;
+                        s1n34_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+                            s2n32_btn.Visible = true;
+                            s2n33_btn.Visible = true;
+                            s2n34_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+                            s2n32_txt.Visible = true;
+                            s2n33_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+                            s3n32_btn.Visible = true;
+                            s3n33_btn.Visible = true;
+                            s3n34_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                            s3n32_txt.Visible = true;
+                            s3n33_txt.Visible = true;
+                            s3n34_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 35)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+                        s1n32_btn.Visible = true;
+                        s1n33_btn.Visible = true;
+                        s1n34_btn.Visible = true;
+                        s1n35_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+                        s1n32_txt.Visible = true;
+                        s1n33_txt.Visible = true;
+                        s1n34_txt.Visible = true;
+                        s1n35_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+                            s2n32_btn.Visible = true;
+                            s2n33_btn.Visible = true;
+                            s2n34_btn.Visible = true;
+                            s2n35_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+                            s2n32_txt.Visible = true;
+                            s2n33_txt.Visible = true;
+                            s2n34_txt.Visible = true;
+                            s2n35_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+                            s3n32_btn.Visible = true;
+                            s3n33_btn.Visible = true;
+                            s3n34_btn.Visible = true;
+                            s3n35_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                            s3n32_txt.Visible = true;
+                            s3n33_txt.Visible = true;
+                            s3n34_txt.Visible = true;
+                            s3n35_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 36)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+                        s1n32_btn.Visible = true;
+                        s1n33_btn.Visible = true;
+                        s1n34_btn.Visible = true;
+                        s1n35_btn.Visible = true;
+                        s1n36_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+                        s1n32_txt.Visible = true;
+                        s1n33_txt.Visible = true;
+                        s1n34_txt.Visible = true;
+                        s1n35_txt.Visible = true;
+                        s1n36_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+                            s2n32_btn.Visible = true;
+                            s2n33_btn.Visible = true;
+                            s2n34_btn.Visible = true;
+                            s2n35_btn.Visible = true;
+                            s2n36_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+                            s2n32_txt.Visible = true;
+                            s2n33_txt.Visible = true;
+                            s2n34_txt.Visible = true;
+                            s2n35_txt.Visible = true;
+                            s2n36_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+                            s3n32_btn.Visible = true;
+                            s3n33_btn.Visible = true;
+                            s3n34_btn.Visible = true;
+                            s3n35_btn.Visible = true;
+                            s3n36_btn.Visible = true;
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                            s3n32_txt.Visible = true;
+                            s3n33_txt.Visible = true;
+                            s3n34_txt.Visible = true;
+                            s3n35_txt.Visible = true;
+                            s3n36_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 37)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+                        s1n32_btn.Visible = true;
+                        s1n33_btn.Visible = true;
+                        s1n34_btn.Visible = true;
+                        s1n35_btn.Visible = true;
+                        s1n36_btn.Visible = true;
+                        s1n37_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+                        s1n32_txt.Visible = true;
+                        s1n33_txt.Visible = true;
+                        s1n34_txt.Visible = true;
+                        s1n35_txt.Visible = true;
+                        s1n36_txt.Visible = true;
+                        s1n37_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+                            s2n32_btn.Visible = true;
+                            s2n33_btn.Visible = true;
+                            s2n34_btn.Visible = true;
+                            s2n35_btn.Visible = true;
+                            s2n36_btn.Visible = true;
+                            s2n37_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+                            s2n32_txt.Visible = true;
+                            s2n33_txt.Visible = true;
+                            s2n34_txt.Visible = true;
+                            s2n35_txt.Visible = true;
+                            s2n36_txt.Visible = true;
+                            s2n37_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+                            s3n32_btn.Visible = true;
+                            s3n33_btn.Visible = true;
+                            s3n34_btn.Visible = true;
+                            s3n35_btn.Visible = true;
+                            s3n36_btn.Visible = true;
+                            s3n37_btn.Visible = true;
+
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                            s3n32_txt.Visible = true;
+                            s3n33_txt.Visible = true;
+                            s3n34_txt.Visible = true;
+                            s3n35_txt.Visible = true;
+                            s3n36_txt.Visible = true;
+                            s3n37_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 38)
+                    {
+                        //sayfa1 buton ve sayıların gizlenmesi
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+                        s1n32_btn.Visible = true;
+                        s1n33_btn.Visible = true;
+                        s1n34_btn.Visible = true;
+                        s1n35_btn.Visible = true;
+                        s1n36_btn.Visible = true;
+                        s1n37_btn.Visible = true;
+                        s1n38_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+                        s1n32_txt.Visible = true;
+                        s1n33_txt.Visible = true;
+                        s1n34_txt.Visible = true;
+                        s1n35_txt.Visible = true;
+                        s1n36_txt.Visible = true;
+                        s1n37_txt.Visible = true;
+                        s1n38_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+                            s2n32_btn.Visible = true;
+                            s2n33_btn.Visible = true;
+                            s2n34_btn.Visible = true;
+                            s2n35_btn.Visible = true;
+                            s2n36_btn.Visible = true;
+                            s2n37_btn.Visible = true;
+                            s2n38_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+                            s2n32_txt.Visible = true;
+                            s2n33_txt.Visible = true;
+                            s2n34_txt.Visible = true;
+                            s2n35_txt.Visible = true;
+                            s2n36_txt.Visible = true;
+                            s2n37_txt.Visible = true;
+                            s2n38_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+                            s3n32_btn.Visible = true;
+                            s3n33_btn.Visible = true;
+                            s3n34_btn.Visible = true;
+                            s3n35_btn.Visible = true;
+                            s3n36_btn.Visible = true;
+                            s3n37_btn.Visible = true;
+                            s3n38_btn.Visible = true;
+
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                            s3n32_txt.Visible = true;
+                            s3n33_txt.Visible = true;
+                            s3n34_txt.Visible = true;
+                            s3n35_txt.Visible = true;
+                            s3n36_txt.Visible = true;
+                            s3n37_txt.Visible = true;
+                            s3n38_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 39)
+                    {
+                        //sayfa1 buton ve sayıların göserilmesi
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+                        s1n32_btn.Visible = true;
+                        s1n33_btn.Visible = true;
+                        s1n34_btn.Visible = true;
+                        s1n35_btn.Visible = true;
+                        s1n36_btn.Visible = true;
+                        s1n37_btn.Visible = true;
+                        s1n38_btn.Visible = true;
+                        s1n39_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+                        s1n32_txt.Visible = true;
+                        s1n33_txt.Visible = true;
+                        s1n34_txt.Visible = true;
+                        s1n35_txt.Visible = true;
+                        s1n36_txt.Visible = true;
+                        s1n37_txt.Visible = true;
+                        s1n38_txt.Visible = true;
+                        s1n39_txt.Visible = true;
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+                            s2n32_btn.Visible = true;
+                            s2n33_btn.Visible = true;
+                            s2n34_btn.Visible = true;
+                            s2n35_btn.Visible = true;
+                            s2n36_btn.Visible = true;
+                            s2n37_btn.Visible = true;
+                            s2n38_btn.Visible = true;
+                            s2n39_btn.Visible = true;
+
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+                            s2n32_txt.Visible = true;
+                            s2n33_txt.Visible = true;
+                            s2n34_txt.Visible = true;
+                            s2n35_txt.Visible = true;
+                            s2n36_txt.Visible = true;
+                            s2n37_txt.Visible = true;
+                            s2n38_txt.Visible = true;
+                            s2n39_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+                            s3n32_btn.Visible = true;
+                            s3n33_btn.Visible = true;
+                            s3n34_btn.Visible = true;
+                            s3n35_btn.Visible = true;
+                            s3n36_btn.Visible = true;
+                            s3n37_btn.Visible = true;
+                            s3n38_btn.Visible = true;
+                            s3n39_btn.Visible = true;
+
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                            s3n32_txt.Visible = true;
+                            s3n33_txt.Visible = true;
+                            s3n34_txt.Visible = true;
+                            s3n35_txt.Visible = true;
+                            s3n36_txt.Visible = true;
+                            s3n37_txt.Visible = true;
+                            s3n38_txt.Visible = true;
+                            s3n39_txt.Visible = true;
+                        }
+
+                    }
+                    else if (ogrencisayisi == 40)
+                    {
+                        //sayfa1 buton ve sayıların gösterilmesi
+                        s1n1_btn.Visible = true;
+                        s1n2_btn.Visible = true;
+                        s1n3_btn.Visible = true;
+                        s1n4_btn.Visible = true;
+                        s1n5_btn.Visible = true;
+                        s1n6_btn.Visible = true;
+                        s1n7_btn.Visible = true;
+                        s1n8_btn.Visible = true;
+                        s1n9_btn.Visible = true;
+                        s1n10_btn.Visible = true;
+                        s1n11_btn.Visible = true;
+                        s1n12_btn.Visible = true;
+                        s1n13_btn.Visible = true;
+                        s1n14_btn.Visible = true;
+                        s1n15_btn.Visible = true;
+                        s1n16_btn.Visible = true;
+                        s1n17_btn.Visible = true;
+                        s1n18_btn.Visible = true;
+                        s1n19_btn.Visible = true;
+                        s1n20_btn.Visible = true;
+                        s1n21_btn.Visible = true;
+                        s1n22_btn.Visible = true;
+                        s1n23_btn.Visible = true;
+                        s1n24_btn.Visible = true;
+                        s1n25_btn.Visible = true;
+                        s1n26_btn.Visible = true;
+                        s1n27_btn.Visible = true;
+                        s1n28_btn.Visible = true;
+                        s1n29_btn.Visible = true;
+                        s1n30_btn.Visible = true;
+                        s1n31_btn.Visible = true;
+                        s1n32_btn.Visible = true;
+                        s1n33_btn.Visible = true;
+                        s1n34_btn.Visible = true;
+                        s1n35_btn.Visible = true;
+                        s1n36_btn.Visible = true;
+                        s1n37_btn.Visible = true;
+                        s1n38_btn.Visible = true;
+                        s1n39_btn.Visible = true;
+                        s1n40_btn.Visible = true;
+
+                        s1n1_txt.Visible = true;
+                        s1n2_txt.Visible = true;
+                        s1n3_txt.Visible = true;
+                        s1n4_txt.Visible = true;
+                        s1n5_txt.Visible = true;
+                        s1n6_txt.Visible = true;
+                        s1n7_txt.Visible = true;
+                        s1n8_txt.Visible = true;
+                        s1n9_txt.Visible = true;
+                        s1n10_txt.Visible = true;
+                        s1n11_txt.Visible = true;
+                        s1n12_txt.Visible = true;
+                        s1n13_txt.Visible = true;
+                        s1n14_txt.Visible = true;
+                        s1n15_txt.Visible = true;
+                        s1n16_txt.Visible = true;
+                        s1n17_txt.Visible = true;
+                        s1n18_txt.Visible = true;
+                        s1n19_txt.Visible = true;
+                        s1n20_txt.Visible = true;
+                        s1n21_txt.Visible = true;
+                        s1n22_txt.Visible = true;
+                        s1n23_txt.Visible = true;
+                        s1n24_txt.Visible = true;
+                        s1n25_txt.Visible = true;
+                        s1n26_txt.Visible = true;
+                        s1n27_txt.Visible = true;
+                        s1n28_txt.Visible = true;
+                        s1n29_txt.Visible = true;
+                        s1n30_txt.Visible = true;
+                        s1n31_txt.Visible = true;
+                        s1n32_txt.Visible = true;
+                        s1n33_txt.Visible = true;
+                        s1n34_txt.Visible = true;
+                        s1n35_txt.Visible = true;
+                        s1n36_txt.Visible = true;
+                        s1n37_txt.Visible = true;
+                        s1n38_txt.Visible = true;
+                        s1n39_txt.Visible = true;
+                        s1n40_txt.Visible = true;
+
+
+                        if (checkBox1.Checked)
+                        {
+                            //page 2
+                            //
+
+
+
+                            s2n1_btn.Visible = true;
+                            s2n2_btn.Visible = true;
+                            s2n3_btn.Visible = true;
+                            s2n4_btn.Visible = true;
+                            s2n5_btn.Visible = true;
+                            s2n6_btn.Visible = true;
+                            s2n7_btn.Visible = true;
+                            s2n8_btn.Visible = true;
+                            s2n9_btn.Visible = true;
+                            s2n10_btn.Visible = true;
+                            s2n11_btn.Visible = true;
+                            s2n12_btn.Visible = true;
+                            s2n13_btn.Visible = true;
+                            s2n14_btn.Visible = true;
+                            s2n15_btn.Visible = true;
+                            s2n16_btn.Visible = true;
+                            s2n17_btn.Visible = true;
+                            s2n18_btn.Visible = true;
+                            s2n19_btn.Visible = true;
+                            s2n20_btn.Visible = true;
+                            s2n21_btn.Visible = true;
+                            s2n22_btn.Visible = true;
+                            s2n23_btn.Visible = true;
+                            s2n24_btn.Visible = true;
+                            s2n25_btn.Visible = true;
+                            s2n26_btn.Visible = true;
+                            s2n27_btn.Visible = true;
+                            s2n28_btn.Visible = true;
+                            s2n29_btn.Visible = true;
+                            s2n30_btn.Visible = true;
+                            s2n31_btn.Visible = true;
+                            s2n32_btn.Visible = true;
+                            s2n33_btn.Visible = true;
+                            s2n34_btn.Visible = true;
+                            s2n35_btn.Visible = true;
+                            s2n36_btn.Visible = true;
+                            s2n37_btn.Visible = true;
+                            s2n38_btn.Visible = true;
+                            s2n39_btn.Visible = true;
+                            s2n40_btn.Visible = true;
+
+                            s2n1_txt.Visible = true;
+                            s2n2_txt.Visible = true;
+                            s2n3_txt.Visible = true;
+                            s2n4_txt.Visible = true;
+                            s2n5_txt.Visible = true;
+                            s2n6_txt.Visible = true;
+                            s2n7_txt.Visible = true;
+                            s2n8_txt.Visible = true;
+                            s2n9_txt.Visible = true;
+                            s2n10_txt.Visible = true;
+                            s2n11_txt.Visible = true;
+                            s2n12_txt.Visible = true;
+                            s2n13_txt.Visible = true;
+                            s2n14_txt.Visible = true;
+                            s2n15_txt.Visible = true;
+                            s2n16_txt.Visible = true;
+                            s2n17_txt.Visible = true;
+                            s2n18_txt.Visible = true;
+                            s2n19_txt.Visible = true;
+                            s2n20_txt.Visible = true;
+                            s2n21_txt.Visible = true;
+                            s2n22_txt.Visible = true;
+                            s2n23_txt.Visible = true;
+                            s2n24_txt.Visible = true;
+                            s2n25_txt.Visible = true;
+                            s2n26_txt.Visible = true;
+                            s2n27_txt.Visible = true;
+                            s2n28_txt.Visible = true;
+                            s2n29_txt.Visible = true;
+                            s2n30_txt.Visible = true;
+                            s2n31_txt.Visible = true;
+                            s2n32_txt.Visible = true;
+                            s2n33_txt.Visible = true;
+                            s2n34_txt.Visible = true;
+                            s2n35_txt.Visible = true;
+                            s2n36_txt.Visible = true;
+                            s2n37_txt.Visible = true;
+                            s2n38_txt.Visible = true;
+                            s2n39_txt.Visible = true;
+                            s2n40_txt.Visible = true;
+
+                            // page 3 
+                            s3n1_btn.Visible = true;
+                            s3n2_btn.Visible = true;
+                            s3n3_btn.Visible = true;
+                            s3n4_btn.Visible = true;
+                            s3n5_btn.Visible = true;
+                            s3n6_btn.Visible = true;
+                            s3n7_btn.Visible = true;
+                            s3n8_btn.Visible = true;
+                            s3n9_btn.Visible = true;
+                            s3n10_btn.Visible = true;
+                            s3n11_btn.Visible = true;
+                            s3n12_btn.Visible = true;
+                            s3n13_btn.Visible = true;
+                            s3n14_btn.Visible = true;
+                            s3n15_btn.Visible = true;
+                            s3n16_btn.Visible = true;
+                            s3n17_btn.Visible = true;
+                            s3n18_btn.Visible = true;
+                            s3n19_btn.Visible = true;
+                            s3n20_btn.Visible = true;
+                            s3n21_btn.Visible = true;
+                            s3n22_btn.Visible = true;
+                            s3n23_btn.Visible = true;
+                            s3n24_btn.Visible = true;
+                            s3n25_btn.Visible = true;
+                            s3n26_btn.Visible = true;
+                            s3n27_btn.Visible = true;
+                            s3n28_btn.Visible = true;
+                            s3n29_btn.Visible = true;
+                            s3n30_btn.Visible = true;
+                            s3n31_btn.Visible = true;
+                            s3n32_btn.Visible = true;
+                            s3n33_btn.Visible = true;
+                            s3n34_btn.Visible = true;
+                            s3n35_btn.Visible = true;
+                            s3n36_btn.Visible = true;
+                            s3n37_btn.Visible = true;
+                            s3n38_btn.Visible = true;
+                            s3n39_btn.Visible = true;
+                            s3n40_btn.Visible = true;
+
+
+                            s3n1_txt.Visible = true;
+                            s3n2_txt.Visible = true;
+                            s3n3_txt.Visible = true;
+                            s3n4_txt.Visible = true;
+                            s3n5_txt.Visible = true;
+                            s3n6_txt.Visible = true;
+                            s3n7_txt.Visible = true;
+                            s3n8_txt.Visible = true;
+                            s3n9_txt.Visible = true;
+                            s3n10_txt.Visible = true;
+                            s3n11_txt.Visible = true;
+                            s3n12_txt.Visible = true;
+                            s3n13_txt.Visible = true;
+                            s3n14_txt.Visible = true;
+                            s3n15_txt.Visible = true;
+                            s3n16_txt.Visible = true;
+                            s3n17_txt.Visible = true;
+                            s3n18_txt.Visible = true;
+                            s3n19_txt.Visible = true;
+                            s3n20_txt.Visible = true;
+                            s3n21_txt.Visible = true;
+                            s3n22_txt.Visible = true;
+                            s3n23_txt.Visible = true;
+                            s3n24_txt.Visible = true;
+                            s3n25_txt.Visible = true;
+                            s3n26_txt.Visible = true;
+                            s3n27_txt.Visible = true;
+                            s3n28_txt.Visible = true;
+                            s3n29_txt.Visible = true;
+                            s3n30_txt.Visible = true;
+                            s3n31_txt.Visible = true;
+                            s3n32_txt.Visible = true;
+                            s3n33_txt.Visible = true;
+                            s3n34_txt.Visible = true;
+                            s3n35_txt.Visible = true;
+                            s3n36_txt.Visible = true;
+                            s3n37_txt.Visible = true;
+                            s3n38_txt.Visible = true;
+                            s3n39_txt.Visible = true;
+                            s3n40_txt.Visible = true;
+                        }
+
+
+                    }
+                    if (sart1 == true && sart2 == true)
+                    {
+                        tabControl1.Enabled = true;
                     }
                 }
-                else if (ogrencisayisi == 2)
+                else
                 {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        // Sayfa 2 buton ve sayı gizlenmesi
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-
-                        // page 3 
-
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 3)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        // Sayfa 2 buton ve sayı gizlenmesi
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-
-                        //page 3 
-
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 4)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                    }
-
-
-
-                }
-                else if (ogrencisayisi == 5)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-
-
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                    }
-
-
-                }
-                else if (ogrencisayisi == 6)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-
-                        //page 3 
-
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 7)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        //page 3 
-
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 8)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        //page 3 
-
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 9)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 10)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-
-                        //page 3 
-
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 11)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-
-                        //page 3 
-
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 12)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 13)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 14)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 15)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 16)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 17)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 18)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 19)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 20)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 21)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                    }
-                }
-                else if (ogrencisayisi == 22)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                    }
-
-
-                }
-                else if (ogrencisayisi == 23)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 24)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 25)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 26)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 27)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 28)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-
-                        s2n40_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 29)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 30)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 31)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 32)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-                    s1n32_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-                    s1n32_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-                        s2n32_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-                        s2n32_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-                        s3n32_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                        s3n32_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 33)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-                    s1n32_btn.Visible = true;
-                    s1n33_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-                    s1n32_txt.Visible = true;
-                    s1n33_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-                        s2n32_btn.Visible = true;
-                        s2n33_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-                        s2n32_txt.Visible = true;
-                        s2n33_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-                        s3n32_btn.Visible = true;
-                        s3n33_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                        s3n32_txt.Visible = true;
-                        s3n33_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 34)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-                    s1n32_btn.Visible = true;
-                    s1n33_btn.Visible = true;
-                    s1n34_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-                    s1n32_txt.Visible = true;
-                    s1n33_txt.Visible = true;
-                    s1n34_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-                        s2n32_btn.Visible = true;
-                        s2n33_btn.Visible = true;
-                        s2n34_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-                        s2n32_txt.Visible = true;
-                        s2n33_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-                        s3n32_btn.Visible = true;
-                        s3n33_btn.Visible = true;
-                        s3n34_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                        s3n32_txt.Visible = true;
-                        s3n33_txt.Visible = true;
-                        s3n34_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 35)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-                    s1n32_btn.Visible = true;
-                    s1n33_btn.Visible = true;
-                    s1n34_btn.Visible = true;
-                    s1n35_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-                    s1n32_txt.Visible = true;
-                    s1n33_txt.Visible = true;
-                    s1n34_txt.Visible = true;
-                    s1n35_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-                        s2n32_btn.Visible = true;
-                        s2n33_btn.Visible = true;
-                        s2n34_btn.Visible = true;
-                        s2n35_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-                        s2n32_txt.Visible = true;
-                        s2n33_txt.Visible = true;
-                        s2n34_txt.Visible = true;
-                        s2n35_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-                        s3n32_btn.Visible = true;
-                        s3n33_btn.Visible = true;
-                        s3n34_btn.Visible = true;
-                        s3n35_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                        s3n32_txt.Visible = true;
-                        s3n33_txt.Visible = true;
-                        s3n34_txt.Visible = true;
-                        s3n35_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 36)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-                    s1n32_btn.Visible = true;
-                    s1n33_btn.Visible = true;
-                    s1n34_btn.Visible = true;
-                    s1n35_btn.Visible = true;
-                    s1n36_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-                    s1n32_txt.Visible = true;
-                    s1n33_txt.Visible = true;
-                    s1n34_txt.Visible = true;
-                    s1n35_txt.Visible = true;
-                    s1n36_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-                        s2n32_btn.Visible = true;
-                        s2n33_btn.Visible = true;
-                        s2n34_btn.Visible = true;
-                        s2n35_btn.Visible = true;
-                        s2n36_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-                        s2n32_txt.Visible = true;
-                        s2n33_txt.Visible = true;
-                        s2n34_txt.Visible = true;
-                        s2n35_txt.Visible = true;
-                        s2n36_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-                        s3n32_btn.Visible = true;
-                        s3n33_btn.Visible = true;
-                        s3n34_btn.Visible = true;
-                        s3n35_btn.Visible = true;
-                        s3n36_btn.Visible = true;
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                        s3n32_txt.Visible = true;
-                        s3n33_txt.Visible = true;
-                        s3n34_txt.Visible = true;
-                        s3n35_txt.Visible = true;
-                        s3n36_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 37)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-                    s1n32_btn.Visible = true;
-                    s1n33_btn.Visible = true;
-                    s1n34_btn.Visible = true;
-                    s1n35_btn.Visible = true;
-                    s1n36_btn.Visible = true;
-                    s1n37_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-                    s1n32_txt.Visible = true;
-                    s1n33_txt.Visible = true;
-                    s1n34_txt.Visible = true;
-                    s1n35_txt.Visible = true;
-                    s1n36_txt.Visible = true;
-                    s1n37_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-                        s2n32_btn.Visible = true;
-                        s2n33_btn.Visible = true;
-                        s2n34_btn.Visible = true;
-                        s2n35_btn.Visible = true;
-                        s2n36_btn.Visible = true;
-                        s2n37_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-                        s2n32_txt.Visible = true;
-                        s2n33_txt.Visible = true;
-                        s2n34_txt.Visible = true;
-                        s2n35_txt.Visible = true;
-                        s2n36_txt.Visible = true;
-                        s2n37_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-                        s3n32_btn.Visible = true;
-                        s3n33_btn.Visible = true;
-                        s3n34_btn.Visible = true;
-                        s3n35_btn.Visible = true;
-                        s3n36_btn.Visible = true;
-                        s3n37_btn.Visible = true;
-
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                        s3n32_txt.Visible = true;
-                        s3n33_txt.Visible = true;
-                        s3n34_txt.Visible = true;
-                        s3n35_txt.Visible = true;
-                        s3n36_txt.Visible = true;
-                        s3n37_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 38)
-                {
-                    //sayfa1 buton ve sayıların gizlenmesi
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-                    s1n32_btn.Visible = true;
-                    s1n33_btn.Visible = true;
-                    s1n34_btn.Visible = true;
-                    s1n35_btn.Visible = true;
-                    s1n36_btn.Visible = true;
-                    s1n37_btn.Visible = true;
-                    s1n38_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-                    s1n32_txt.Visible = true;
-                    s1n33_txt.Visible = true;
-                    s1n34_txt.Visible = true;
-                    s1n35_txt.Visible = true;
-                    s1n36_txt.Visible = true;
-                    s1n37_txt.Visible = true;
-                    s1n38_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-                        s2n32_btn.Visible = true;
-                        s2n33_btn.Visible = true;
-                        s2n34_btn.Visible = true;
-                        s2n35_btn.Visible = true;
-                        s2n36_btn.Visible = true;
-                        s2n37_btn.Visible = true;
-                        s2n38_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-                        s2n32_txt.Visible = true;
-                        s2n33_txt.Visible = true;
-                        s2n34_txt.Visible = true;
-                        s2n35_txt.Visible = true;
-                        s2n36_txt.Visible = true;
-                        s2n37_txt.Visible = true;
-                        s2n38_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-                        s3n32_btn.Visible = true;
-                        s3n33_btn.Visible = true;
-                        s3n34_btn.Visible = true;
-                        s3n35_btn.Visible = true;
-                        s3n36_btn.Visible = true;
-                        s3n37_btn.Visible = true;
-                        s3n38_btn.Visible = true;
-
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                        s3n32_txt.Visible = true;
-                        s3n33_txt.Visible = true;
-                        s3n34_txt.Visible = true;
-                        s3n35_txt.Visible = true;
-                        s3n36_txt.Visible = true;
-                        s3n37_txt.Visible = true;
-                        s3n38_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 39)
-                {
-                    //sayfa1 buton ve sayıların göserilmesi
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-                    s1n32_btn.Visible = true;
-                    s1n33_btn.Visible = true;
-                    s1n34_btn.Visible = true;
-                    s1n35_btn.Visible = true;
-                    s1n36_btn.Visible = true;
-                    s1n37_btn.Visible = true;
-                    s1n38_btn.Visible = true;
-                    s1n39_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-                    s1n32_txt.Visible = true;
-                    s1n33_txt.Visible = true;
-                    s1n34_txt.Visible = true;
-                    s1n35_txt.Visible = true;
-                    s1n36_txt.Visible = true;
-                    s1n37_txt.Visible = true;
-                    s1n38_txt.Visible = true;
-                    s1n39_txt.Visible = true;
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-                        s2n32_btn.Visible = true;
-                        s2n33_btn.Visible = true;
-                        s2n34_btn.Visible = true;
-                        s2n35_btn.Visible = true;
-                        s2n36_btn.Visible = true;
-                        s2n37_btn.Visible = true;
-                        s2n38_btn.Visible = true;
-                        s2n39_btn.Visible = true;
-
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-                        s2n32_txt.Visible = true;
-                        s2n33_txt.Visible = true;
-                        s2n34_txt.Visible = true;
-                        s2n35_txt.Visible = true;
-                        s2n36_txt.Visible = true;
-                        s2n37_txt.Visible = true;
-                        s2n38_txt.Visible = true;
-                        s2n39_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-                        s3n32_btn.Visible = true;
-                        s3n33_btn.Visible = true;
-                        s3n34_btn.Visible = true;
-                        s3n35_btn.Visible = true;
-                        s3n36_btn.Visible = true;
-                        s3n37_btn.Visible = true;
-                        s3n38_btn.Visible = true;
-                        s3n39_btn.Visible = true;
-
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                        s3n32_txt.Visible = true;
-                        s3n33_txt.Visible = true;
-                        s3n34_txt.Visible = true;
-                        s3n35_txt.Visible = true;
-                        s3n36_txt.Visible = true;
-                        s3n37_txt.Visible = true;
-                        s3n38_txt.Visible = true;
-                        s3n39_txt.Visible = true;
-                    }
-
-                }
-                else if (ogrencisayisi == 40)
-                {
-                    //sayfa1 buton ve sayıların gösterilmesi
-                    s1n1_btn.Visible = true;
-                    s1n2_btn.Visible = true;
-                    s1n3_btn.Visible = true;
-                    s1n4_btn.Visible = true;
-                    s1n5_btn.Visible = true;
-                    s1n6_btn.Visible = true;
-                    s1n7_btn.Visible = true;
-                    s1n8_btn.Visible = true;
-                    s1n9_btn.Visible = true;
-                    s1n10_btn.Visible = true;
-                    s1n11_btn.Visible = true;
-                    s1n12_btn.Visible = true;
-                    s1n13_btn.Visible = true;
-                    s1n14_btn.Visible = true;
-                    s1n15_btn.Visible = true;
-                    s1n16_btn.Visible = true;
-                    s1n17_btn.Visible = true;
-                    s1n18_btn.Visible = true;
-                    s1n19_btn.Visible = true;
-                    s1n20_btn.Visible = true;
-                    s1n21_btn.Visible = true;
-                    s1n22_btn.Visible = true;
-                    s1n23_btn.Visible = true;
-                    s1n24_btn.Visible = true;
-                    s1n25_btn.Visible = true;
-                    s1n26_btn.Visible = true;
-                    s1n27_btn.Visible = true;
-                    s1n28_btn.Visible = true;
-                    s1n29_btn.Visible = true;
-                    s1n30_btn.Visible = true;
-                    s1n31_btn.Visible = true;
-                    s1n32_btn.Visible = true;
-                    s1n33_btn.Visible = true;
-                    s1n34_btn.Visible = true;
-                    s1n35_btn.Visible = true;
-                    s1n36_btn.Visible = true;
-                    s1n37_btn.Visible = true;
-                    s1n38_btn.Visible = true;
-                    s1n39_btn.Visible = true;
-                    s1n40_btn.Visible = true;
-
-                    s1n1_txt.Visible = true;
-                    s1n2_txt.Visible = true;
-                    s1n3_txt.Visible = true;
-                    s1n4_txt.Visible = true;
-                    s1n5_txt.Visible = true;
-                    s1n6_txt.Visible = true;
-                    s1n7_txt.Visible = true;
-                    s1n8_txt.Visible = true;
-                    s1n9_txt.Visible = true;
-                    s1n10_txt.Visible = true;
-                    s1n11_txt.Visible = true;
-                    s1n12_txt.Visible = true;
-                    s1n13_txt.Visible = true;
-                    s1n14_txt.Visible = true;
-                    s1n15_txt.Visible = true;
-                    s1n16_txt.Visible = true;
-                    s1n17_txt.Visible = true;
-                    s1n18_txt.Visible = true;
-                    s1n19_txt.Visible = true;
-                    s1n20_txt.Visible = true;
-                    s1n21_txt.Visible = true;
-                    s1n22_txt.Visible = true;
-                    s1n23_txt.Visible = true;
-                    s1n24_txt.Visible = true;
-                    s1n25_txt.Visible = true;
-                    s1n26_txt.Visible = true;
-                    s1n27_txt.Visible = true;
-                    s1n28_txt.Visible = true;
-                    s1n29_txt.Visible = true;
-                    s1n30_txt.Visible = true;
-                    s1n31_txt.Visible = true;
-                    s1n32_txt.Visible = true;
-                    s1n33_txt.Visible = true;
-                    s1n34_txt.Visible = true;
-                    s1n35_txt.Visible = true;
-                    s1n36_txt.Visible = true;
-                    s1n37_txt.Visible = true;
-                    s1n38_txt.Visible = true;
-                    s1n39_txt.Visible = true;
-                    s1n40_txt.Visible = true;
-
-
-                    if (checkBox1.Checked)
-                    {
-                        //page 2
-                        //
-
-
-
-                        s2n1_btn.Visible = true;
-                        s2n2_btn.Visible = true;
-                        s2n3_btn.Visible = true;
-                        s2n4_btn.Visible = true;
-                        s2n5_btn.Visible = true;
-                        s2n6_btn.Visible = true;
-                        s2n7_btn.Visible = true;
-                        s2n8_btn.Visible = true;
-                        s2n9_btn.Visible = true;
-                        s2n10_btn.Visible = true;
-                        s2n11_btn.Visible = true;
-                        s2n12_btn.Visible = true;
-                        s2n13_btn.Visible = true;
-                        s2n14_btn.Visible = true;
-                        s2n15_btn.Visible = true;
-                        s2n16_btn.Visible = true;
-                        s2n17_btn.Visible = true;
-                        s2n18_btn.Visible = true;
-                        s2n19_btn.Visible = true;
-                        s2n20_btn.Visible = true;
-                        s2n21_btn.Visible = true;
-                        s2n22_btn.Visible = true;
-                        s2n23_btn.Visible = true;
-                        s2n24_btn.Visible = true;
-                        s2n25_btn.Visible = true;
-                        s2n26_btn.Visible = true;
-                        s2n27_btn.Visible = true;
-                        s2n28_btn.Visible = true;
-                        s2n29_btn.Visible = true;
-                        s2n30_btn.Visible = true;
-                        s2n31_btn.Visible = true;
-                        s2n32_btn.Visible = true;
-                        s2n33_btn.Visible = true;
-                        s2n34_btn.Visible = true;
-                        s2n35_btn.Visible = true;
-                        s2n36_btn.Visible = true;
-                        s2n37_btn.Visible = true;
-                        s2n38_btn.Visible = true;
-                        s2n39_btn.Visible = true;
-                        s2n40_btn.Visible = true;
-
-                        s2n1_txt.Visible = true;
-                        s2n2_txt.Visible = true;
-                        s2n3_txt.Visible = true;
-                        s2n4_txt.Visible = true;
-                        s2n5_txt.Visible = true;
-                        s2n6_txt.Visible = true;
-                        s2n7_txt.Visible = true;
-                        s2n8_txt.Visible = true;
-                        s2n9_txt.Visible = true;
-                        s2n10_txt.Visible = true;
-                        s2n11_txt.Visible = true;
-                        s2n12_txt.Visible = true;
-                        s2n13_txt.Visible = true;
-                        s2n14_txt.Visible = true;
-                        s2n15_txt.Visible = true;
-                        s2n16_txt.Visible = true;
-                        s2n17_txt.Visible = true;
-                        s2n18_txt.Visible = true;
-                        s2n19_txt.Visible = true;
-                        s2n20_txt.Visible = true;
-                        s2n21_txt.Visible = true;
-                        s2n22_txt.Visible = true;
-                        s2n23_txt.Visible = true;
-                        s2n24_txt.Visible = true;
-                        s2n25_txt.Visible = true;
-                        s2n26_txt.Visible = true;
-                        s2n27_txt.Visible = true;
-                        s2n28_txt.Visible = true;
-                        s2n29_txt.Visible = true;
-                        s2n30_txt.Visible = true;
-                        s2n31_txt.Visible = true;
-                        s2n32_txt.Visible = true;
-                        s2n33_txt.Visible = true;
-                        s2n34_txt.Visible = true;
-                        s2n35_txt.Visible = true;
-                        s2n36_txt.Visible = true;
-                        s2n37_txt.Visible = true;
-                        s2n38_txt.Visible = true;
-                        s2n39_txt.Visible = true;
-                        s2n40_txt.Visible = true;
-
-                        // page 3 
-                        s3n1_btn.Visible = true;
-                        s3n2_btn.Visible = true;
-                        s3n3_btn.Visible = true;
-                        s3n4_btn.Visible = true;
-                        s3n5_btn.Visible = true;
-                        s3n6_btn.Visible = true;
-                        s3n7_btn.Visible = true;
-                        s3n8_btn.Visible = true;
-                        s3n9_btn.Visible = true;
-                        s3n10_btn.Visible = true;
-                        s3n11_btn.Visible = true;
-                        s3n12_btn.Visible = true;
-                        s3n13_btn.Visible = true;
-                        s3n14_btn.Visible = true;
-                        s3n15_btn.Visible = true;
-                        s3n16_btn.Visible = true;
-                        s3n17_btn.Visible = true;
-                        s3n18_btn.Visible = true;
-                        s3n19_btn.Visible = true;
-                        s3n20_btn.Visible = true;
-                        s3n21_btn.Visible = true;
-                        s3n22_btn.Visible = true;
-                        s3n23_btn.Visible = true;
-                        s3n24_btn.Visible = true;
-                        s3n25_btn.Visible = true;
-                        s3n26_btn.Visible = true;
-                        s3n27_btn.Visible = true;
-                        s3n28_btn.Visible = true;
-                        s3n29_btn.Visible = true;
-                        s3n30_btn.Visible = true;
-                        s3n31_btn.Visible = true;
-                        s3n32_btn.Visible = true;
-                        s3n33_btn.Visible = true;
-                        s3n34_btn.Visible = true;
-                        s3n35_btn.Visible = true;
-                        s3n36_btn.Visible = true;
-                        s3n37_btn.Visible = true;
-                        s3n38_btn.Visible = true;
-                        s3n39_btn.Visible = true;
-                        s3n40_btn.Visible = true;
-
-
-                        s3n1_txt.Visible = true;
-                        s3n2_txt.Visible = true;
-                        s3n3_txt.Visible = true;
-                        s3n4_txt.Visible = true;
-                        s3n5_txt.Visible = true;
-                        s3n6_txt.Visible = true;
-                        s3n7_txt.Visible = true;
-                        s3n8_txt.Visible = true;
-                        s3n9_txt.Visible = true;
-                        s3n10_txt.Visible = true;
-                        s3n11_txt.Visible = true;
-                        s3n12_txt.Visible = true;
-                        s3n13_txt.Visible = true;
-                        s3n14_txt.Visible = true;
-                        s3n15_txt.Visible = true;
-                        s3n16_txt.Visible = true;
-                        s3n17_txt.Visible = true;
-                        s3n18_txt.Visible = true;
-                        s3n19_txt.Visible = true;
-                        s3n20_txt.Visible = true;
-                        s3n21_txt.Visible = true;
-                        s3n22_txt.Visible = true;
-                        s3n23_txt.Visible = true;
-                        s3n24_txt.Visible = true;
-                        s3n25_txt.Visible = true;
-                        s3n26_txt.Visible = true;
-                        s3n27_txt.Visible = true;
-                        s3n28_txt.Visible = true;
-                        s3n29_txt.Visible = true;
-                        s3n30_txt.Visible = true;
-                        s3n31_txt.Visible = true;
-                        s3n32_txt.Visible = true;
-                        s3n33_txt.Visible = true;
-                        s3n34_txt.Visible = true;
-                        s3n35_txt.Visible = true;
-                        s3n36_txt.Visible = true;
-                        s3n37_txt.Visible = true;
-                        s3n38_txt.Visible = true;
-                        s3n39_txt.Visible = true;
-                        s3n40_txt.Visible = true;
-                    }
-
-
-                }
-                if (sart1 == true && sart2 == true)
-                {
-                    tabControl1.Enabled = true;
+                    MessageBox.Show("Lütfen 1 ila " + maxsoru.ToString() + " arası rakam giriniz.", "Rastgele Seçici");
                 }
             }
             else
             {
-                MessageBox.Show("Lütfen 1 ila " + maxsoru.ToString() + " arası rakam giriniz.", "Rastgele Seçici");
+                MessageBox.Show("Lütfen Excel Dosyası Seçiniz..!");
             }
         }
-        public void controller()
-        {
-
-        }
+        int controller = 0;
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            controller = 0;
             tabControl1.Enabled = false;
-            button1.Enabled = false;
+          //  button1.Enabled = false;
             label45.Enabled = false;
             messagegizle();
             messagenumbergizle();
             listBox2.Visible = false;
             listBox3.Visible = false;
-            controller();
+            
             txtbox_ogrsayi.ReadOnly = true;
         }
         void messagenumbergizle()
@@ -6290,7 +6296,7 @@ namespace Rastgele_Seçici
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            controller = 1;
             try
             {
                 txtbox_ogrsayi.ReadOnly = false;
@@ -7282,10 +7288,22 @@ namespace Rastgele_Seçici
 
         private void button3_Click_1(object sender, EventArgs e)
         {
-            reset = true;
+            DialogResult dialog2 = new DialogResult();
+            dialog2 = MessageBox.Show("Her şey sıfırlanacak kabul ediyor musunuz ?", "Sıfırla ? ", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (dialog2 == DialogResult.Yes)
+            {
+               reset = true;
             Form2 yeniform = new Form2();
             yeniform.Show();
-            this.Close();
+            this.Close(); 
+            }
+            else
+            {
+               //
+            }
+
+
+            
 
 
 
