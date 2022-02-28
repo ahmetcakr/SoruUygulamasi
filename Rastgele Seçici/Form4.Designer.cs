@@ -73,10 +73,10 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
             this.pictureBox1.Image = global::Rastgele_Seçici.Properties.Resources.Yeni_Microsoft_Word_Belgesi__1__1;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 6);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(1654, 2339);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.Size = new System.Drawing.Size(937, 1835);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -100,8 +100,8 @@
             this.pictureBox2.Image = global::Rastgele_Seçici.Properties.Resources.Yeni_Microsoft_Word_Belgesi__1__2;
             this.pictureBox2.Location = new System.Drawing.Point(-1, -1);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(1654, 2339);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox2.Size = new System.Drawing.Size(938, 2070);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
@@ -117,10 +117,8 @@
             this.Text = "Yardım";
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
