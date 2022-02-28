@@ -5739,7 +5739,7 @@ namespace Rastgele_Seçici
             listBox2.Visible = false;
             listBox3.Visible = false;
             
-            txtbox_ogrsayi.ReadOnly = true;
+            //txtbox_ogrsayi.ReadOnly = true;
         }
         void messagenumbergizle()
         {
@@ -7628,6 +7628,14 @@ namespace Rastgele_Seçici
             hangisitiklandıs3 = 12;
             s3n12_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
+        }
+
+        private void txtbox_ogrsayi_TextChanged(object sender, EventArgs e)
+        {
+            //if (controller != 1 && label2.Text != "Excel Dosyası Seçildi.")
+            //{
+            //    MessageBox.Show("Lütfen ilk önce Excel dosyanızı seçiniz.", "Rastgele Seçici");
+            //}
         }
 
         public void sormetots3()
