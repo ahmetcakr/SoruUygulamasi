@@ -41,8 +41,6 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label45 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.s1n12_txt = new System.Windows.Forms.Label();
             this.s1n8_txt = new System.Windows.Forms.Label();
@@ -248,8 +246,6 @@
             this.s3n5_txt = new System.Windows.Forms.Label();
             this.s3n17_txt = new System.Windows.Forms.Label();
             this.s3n9_txt = new System.Windows.Forms.Label();
-            this.s3n12_btn = new System.Windows.Forms.PictureBox();
-            this.s3n24_btn = new System.Windows.Forms.PictureBox();
             this.s3n16_btn = new System.Windows.Forms.PictureBox();
             this.s3n14_btn = new System.Windows.Forms.PictureBox();
             this.s3n22_btn = new System.Windows.Forms.PictureBox();
@@ -289,6 +285,10 @@
             this.s3n17_btn = new System.Windows.Forms.PictureBox();
             this.s3n9_btn = new System.Windows.Forms.PictureBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.s3n24_btn = new System.Windows.Forms.PictureBox();
+            this.s3n12_btn = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.s1n12_btn)).BeginInit();
@@ -373,8 +373,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.s2n17_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s2n9_btn)).BeginInit();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.s3n12_btn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.s3n24_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n16_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n14_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n22_btn)).BeginInit();
@@ -413,6 +411,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.s3n13_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n17_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n9_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s3n24_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s3n12_btn)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -564,41 +564,6 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1181, 703);
             this.tabControl1.TabIndex = 0;
-            // 
-            // button4
-            // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.BackColor = System.Drawing.Color.Snow;
-            this.button4.BackgroundImage = global::Rastgele_Seçici.Properties.Resources.user_guide;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Help;
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(1143, 6);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(33, 37);
-            this.button4.TabIndex = 17;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.BackgroundImage = global::Rastgele_Seçici.Properties.Resources.go_back_arrow;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.GhostWhite;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(996, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(44, 41);
-            this.button3.TabIndex = 16;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // tabPage1
             // 
@@ -2966,6 +2931,8 @@
             this.tabPage3.BackColor = System.Drawing.Color.White;
             this.tabPage3.BackgroundImage = global::Rastgele_Seçici.Properties.Resources.Adsız_tasarım__3_;
             this.tabPage3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.tabPage3.Controls.Add(this.s3n12_btn);
+            this.tabPage3.Controls.Add(this.s3n24_btn);
             this.tabPage3.Controls.Add(this.s3n12_txt);
             this.tabPage3.Controls.Add(this.s3n8_txt);
             this.tabPage3.Controls.Add(this.s3n30_txt);
@@ -3006,8 +2973,6 @@
             this.tabPage3.Controls.Add(this.s3n5_txt);
             this.tabPage3.Controls.Add(this.s3n17_txt);
             this.tabPage3.Controls.Add(this.s3n9_txt);
-            this.tabPage3.Controls.Add(this.s3n12_btn);
-            this.tabPage3.Controls.Add(this.s3n24_btn);
             this.tabPage3.Controls.Add(this.s3n16_btn);
             this.tabPage3.Controls.Add(this.s3n14_btn);
             this.tabPage3.Controls.Add(this.s3n22_btn);
@@ -3530,32 +3495,6 @@
             this.s3n9_txt.Size = new System.Drawing.Size(16, 17);
             this.s3n9_txt.TabIndex = 169;
             this.s3n9_txt.Text = "9";
-            // 
-            // s3n12_btn
-            // 
-            this.s3n12_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.s3n12_btn.BackColor = System.Drawing.Color.Transparent;
-            this.s3n12_btn.Image = ((System.Drawing.Image)(resources.GetObject("s3n12_btn.Image")));
-            this.s3n12_btn.Location = new System.Drawing.Point(1017, 503);
-            this.s3n12_btn.Margin = new System.Windows.Forms.Padding(2);
-            this.s3n12_btn.Name = "s3n12_btn";
-            this.s3n12_btn.Size = new System.Drawing.Size(80, 65);
-            this.s3n12_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.s3n12_btn.TabIndex = 132;
-            this.s3n12_btn.TabStop = false;
-            // 
-            // s3n24_btn
-            // 
-            this.s3n24_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.s3n24_btn.BackColor = System.Drawing.Color.Transparent;
-            this.s3n24_btn.Image = ((System.Drawing.Image)(resources.GetObject("s3n24_btn.Image")));
-            this.s3n24_btn.Location = new System.Drawing.Point(927, 503);
-            this.s3n24_btn.Margin = new System.Windows.Forms.Padding(2);
-            this.s3n24_btn.Name = "s3n24_btn";
-            this.s3n24_btn.Size = new System.Drawing.Size(80, 65);
-            this.s3n24_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.s3n24_btn.TabIndex = 133;
-            this.s3n24_btn.TabStop = false;
             // 
             // s3n16_btn
             // 
@@ -4095,12 +4034,75 @@
             this.listBox3.Size = new System.Drawing.Size(80, 38);
             this.listBox3.TabIndex = 120;
             // 
+            // button4
+            // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.BackColor = System.Drawing.Color.Snow;
+            this.button4.BackgroundImage = global::Rastgele_Seçici.Properties.Resources.user_guide;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Help;
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(1143, 6);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(33, 37);
+            this.button4.TabIndex = 17;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::Rastgele_Seçici.Properties.Resources.go_back_arrow;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.GhostWhite;
+            this.button3.FlatAppearance.BorderSize = 2;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.Location = new System.Drawing.Point(996, 12);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(44, 41);
+            this.button3.TabIndex = 16;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // s3n24_btn
+            // 
+            this.s3n24_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.s3n24_btn.BackColor = System.Drawing.Color.Transparent;
+            this.s3n24_btn.Image = ((System.Drawing.Image)(resources.GetObject("s3n24_btn.Image")));
+            this.s3n24_btn.Location = new System.Drawing.Point(927, 504);
+            this.s3n24_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.s3n24_btn.Name = "s3n24_btn";
+            this.s3n24_btn.Size = new System.Drawing.Size(80, 65);
+            this.s3n24_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.s3n24_btn.TabIndex = 201;
+            this.s3n24_btn.TabStop = false;
+            this.s3n24_btn.Click += new System.EventHandler(this.s3n24_btn_Click);
+            // 
+            // s3n12_btn
+            // 
+            this.s3n12_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.s3n12_btn.BackColor = System.Drawing.Color.Transparent;
+            this.s3n12_btn.Image = ((System.Drawing.Image)(resources.GetObject("s3n12_btn.Image")));
+            this.s3n12_btn.Location = new System.Drawing.Point(1017, 504);
+            this.s3n12_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.s3n12_btn.Name = "s3n12_btn";
+            this.s3n12_btn.Size = new System.Drawing.Size(80, 65);
+            this.s3n12_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.s3n12_btn.TabIndex = 202;
+            this.s3n12_btn.TabStop = false;
+            this.s3n12_btn.Click += new System.EventHandler(this.s3n12_btn_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.GhostWhite;
-            this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.ClientSize = new System.Drawing.Size(1184, 749);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.label45);
@@ -4116,7 +4118,7 @@
             this.Controls.Add(this.label2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(2);
-            this.MinimumSize = new System.Drawing.Size(1200, 798);
+            this.MinimumSize = new System.Drawing.Size(1200, 766);
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rastgele Seçici";
@@ -4211,8 +4213,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.s2n9_btn)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.s3n12_btn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.s3n24_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n16_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n14_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n22_btn)).EndInit();
@@ -4251,6 +4251,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.s3n13_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n17_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n9_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s3n24_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s3n12_btn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4310,8 +4312,6 @@
         private System.Windows.Forms.Label s3n5_txt;
         private System.Windows.Forms.Label s3n17_txt;
         private System.Windows.Forms.Label s3n9_txt;
-        private System.Windows.Forms.PictureBox s3n12_btn;
-        private System.Windows.Forms.PictureBox s3n24_btn;
         private System.Windows.Forms.PictureBox s3n16_btn;
         private System.Windows.Forms.PictureBox s3n14_btn;
         private System.Windows.Forms.PictureBox s3n22_btn;
@@ -4517,5 +4517,7 @@
         private System.Windows.Forms.PictureBox s1n9_btn;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.PictureBox s3n12_btn;
+        private System.Windows.Forms.PictureBox s3n24_btn;
     }
 }

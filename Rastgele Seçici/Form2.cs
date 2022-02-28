@@ -7588,6 +7588,16 @@ namespace Rastgele_Seçici
             sormetots3();
         }
 
+        
+
+        
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Form4 y = new Form4();
+            y.Show();
+        }
+
         private void s3n24_btn_Click(object sender, EventArgs e)
         {
             hangisitiklandıs3 = 24;
@@ -7600,12 +7610,6 @@ namespace Rastgele_Seçici
             hangisitiklandıs3 = 12;
             s3n12_btn.Image = Rastgele_Seçici.Properties.Resources.c2;
             sormetots3();
-        }
-
-        private void button4_Click(object sender, EventArgs e)
-        {
-            Form4 y = new Form4();
-            y.Show();
         }
 
         public void sormetots3()

@@ -201,3 +201,25 @@ C:\Users\Halim\Desktop\Hemsin\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele
 C:\Users\Halim\Desktop\Hemsin\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.exe
 C:\Users\Halim\Desktop\Hemsin\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.pdb
 C:\Users\asus\Desktop\SoruUygulamasi-main\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form4.resources
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\bin\Debug\Rastgele Seçici.exe.config
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\bin\Debug\Rastgele Seçici.exe
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\bin\Debug\Rastgele Seçici.pdb
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.dll
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\bin\Debug\ExcelDataReader.dll
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\bin\Debug\ExcelDataReader.pdb
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\bin\Debug\ExcelDataReader.xml
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.pdb
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\bin\Debug\ExcelDataReader.DataSet.xml
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.AssemblyReference.cache
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.ResolveComReference.cache
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form1.resources
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form2.resources
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form3.resources
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form4.resources
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Properties.Resources.resources
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.GenerateResource.cache
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CoreCompileInputs.cache
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.csproj.CopyComplete
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.exe
+C:\Users\ahmet\OneDrive\Masaüstü\okul\SoruUygulamasi\Rastgele Seçici\obj\Debug\Rastgele Seçici.pdb
+C:\Users\ahmet\OneDrive\Masaüstü\Yeni klasör\Rastgele Seçici\obj\Debug\Rastgele_Seçici.Form4.resources
