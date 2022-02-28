@@ -199,5 +199,25 @@ namespace Rastgele_Seçici.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yeni_Microsoft_Word_Belgesi__2__1 {
+            get {
+                object obj = ResourceManager.GetObject("Yeni Microsoft Word Belgesi (2)-1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yeni_Microsoft_Word_Belgesi__2__2 {
+            get {
+                object obj = ResourceManager.GetObject("Yeni Microsoft Word Belgesi (2)-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -41,6 +41,9 @@
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.label45 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.label5 = new System.Windows.Forms.Label();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.s1n12_txt = new System.Windows.Forms.Label();
             this.s1n8_txt = new System.Windows.Forms.Label();
@@ -206,6 +209,8 @@
             this.s2n9_btn = new System.Windows.Forms.PictureBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.s3n12_btn = new System.Windows.Forms.PictureBox();
+            this.s3n24_btn = new System.Windows.Forms.PictureBox();
             this.s3n12_txt = new System.Windows.Forms.Label();
             this.s3n8_txt = new System.Windows.Forms.Label();
             this.s3n30_txt = new System.Windows.Forms.Label();
@@ -285,10 +290,6 @@
             this.s3n17_btn = new System.Windows.Forms.PictureBox();
             this.s3n9_btn = new System.Windows.Forms.PictureBox();
             this.listBox3 = new System.Windows.Forms.ListBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.s3n24_btn = new System.Windows.Forms.PictureBox();
-            this.s3n12_btn = new System.Windows.Forms.PictureBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.s1n12_btn)).BeginInit();
@@ -373,6 +374,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.s2n17_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s2n9_btn)).BeginInit();
             this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.s3n12_btn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s3n24_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n16_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n14_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n22_btn)).BeginInit();
@@ -411,8 +414,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.s3n13_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n17_btn)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n9_btn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.s3n24_btn)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.s3n12_btn)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -420,7 +421,7 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(140, 9);
+            this.label1.Location = new System.Drawing.Point(656, 14);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(99, 17);
@@ -433,7 +434,7 @@
             this.button1.BackColor = System.Drawing.Color.Snow;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(349, 5);
+            this.button1.Location = new System.Drawing.Point(865, 10);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(77, 27);
@@ -445,7 +446,7 @@
             // txtbox_ogrsayi
             // 
             this.txtbox_ogrsayi.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.txtbox_ogrsayi.Location = new System.Drawing.Point(239, 8);
+            this.txtbox_ogrsayi.Location = new System.Drawing.Point(755, 13);
             this.txtbox_ogrsayi.Margin = new System.Windows.Forms.Padding(2);
             this.txtbox_ogrsayi.Name = "txtbox_ogrsayi";
             this.txtbox_ogrsayi.Size = new System.Drawing.Size(106, 20);
@@ -458,7 +459,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(440, 8);
+            this.label2.Location = new System.Drawing.Point(401, 13);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(162, 17);
@@ -475,7 +476,7 @@
             this.button2.BackColor = System.Drawing.Color.Snow;
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(604, 5);
+            this.button2.Location = new System.Drawing.Point(567, 10);
             this.button2.Margin = new System.Windows.Forms.Padding(2);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(77, 27);
@@ -488,7 +489,7 @@
             // 
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(431, 9);
+            this.label3.Location = new System.Drawing.Point(394, 14);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(9, 13);
@@ -500,12 +501,12 @@
             this.label4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(140, 38);
+            this.label4.Location = new System.Drawing.Point(741, 43);
             this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(175, 13);
+            this.label4.Size = new System.Drawing.Size(201, 13);
             this.label4.TabIndex = 7;
-            this.label4.Text = "Lütfen Excel Dosyanızı tanımlayınız..";
+            this.label4.Text = "Lütfen önce Excel Dosyanızı tanımlayınız..";
             // 
             // checkBox1
             // 
@@ -515,7 +516,7 @@
             this.checkBox1.Checked = true;
             this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.checkBox1.Location = new System.Drawing.Point(685, 10);
+            this.checkBox1.Location = new System.Drawing.Point(130, 14);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(126, 17);
@@ -529,7 +530,7 @@
             this.checkBox2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.checkBox2.AutoSize = true;
             this.checkBox2.BackColor = System.Drawing.Color.Transparent;
-            this.checkBox2.Location = new System.Drawing.Point(816, 10);
+            this.checkBox2.Location = new System.Drawing.Point(261, 14);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(129, 17);
@@ -542,7 +543,7 @@
             this.label45.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label45.AutoSize = true;
             this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label45.Location = new System.Drawing.Point(440, 35);
+            this.label45.Location = new System.Drawing.Point(403, 36);
             this.label45.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(84, 17);
@@ -564,6 +565,51 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1181, 703);
             this.tabControl1.TabIndex = 0;
+            // 
+            // label5
+            // 
+            this.label5.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(648, 16);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(9, 13);
+            this.label5.TabIndex = 6;
+            this.label5.Text = "|";
+            // 
+            // button4
+            // 
+            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button4.BackColor = System.Drawing.Color.Snow;
+            this.button4.BackgroundImage = global::Rastgele_Seçici.Properties.Resources.user_guide;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Help;
+            this.button4.ForeColor = System.Drawing.Color.Black;
+            this.button4.Location = new System.Drawing.Point(1143, 6);
+            this.button4.Margin = new System.Windows.Forms.Padding(2);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(33, 37);
+            this.button4.TabIndex = 17;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::Rastgele_Seçici.Properties.Resources.go_back_arrow;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.GhostWhite;
+            this.button3.FlatAppearance.BorderSize = 2;
+            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button3.Location = new System.Drawing.Point(947, 11);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(25, 25);
+            this.button3.TabIndex = 16;
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
             // 
             // tabPage1
             // 
@@ -3020,6 +3066,34 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Sayfa 3";
             // 
+            // s3n12_btn
+            // 
+            this.s3n12_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.s3n12_btn.BackColor = System.Drawing.Color.Transparent;
+            this.s3n12_btn.Image = ((System.Drawing.Image)(resources.GetObject("s3n12_btn.Image")));
+            this.s3n12_btn.Location = new System.Drawing.Point(1017, 504);
+            this.s3n12_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.s3n12_btn.Name = "s3n12_btn";
+            this.s3n12_btn.Size = new System.Drawing.Size(80, 65);
+            this.s3n12_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.s3n12_btn.TabIndex = 202;
+            this.s3n12_btn.TabStop = false;
+            this.s3n12_btn.Click += new System.EventHandler(this.s3n12_btn_Click);
+            // 
+            // s3n24_btn
+            // 
+            this.s3n24_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.s3n24_btn.BackColor = System.Drawing.Color.Transparent;
+            this.s3n24_btn.Image = ((System.Drawing.Image)(resources.GetObject("s3n24_btn.Image")));
+            this.s3n24_btn.Location = new System.Drawing.Point(927, 504);
+            this.s3n24_btn.Margin = new System.Windows.Forms.Padding(2);
+            this.s3n24_btn.Name = "s3n24_btn";
+            this.s3n24_btn.Size = new System.Drawing.Size(80, 65);
+            this.s3n24_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.s3n24_btn.TabIndex = 201;
+            this.s3n24_btn.TabStop = false;
+            this.s3n24_btn.Click += new System.EventHandler(this.s3n24_btn_Click);
+            // 
             // s3n12_txt
             // 
             this.s3n12_txt.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
@@ -4034,69 +4108,6 @@
             this.listBox3.Size = new System.Drawing.Size(80, 38);
             this.listBox3.TabIndex = 120;
             // 
-            // button4
-            // 
-            this.button4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button4.BackColor = System.Drawing.Color.Snow;
-            this.button4.BackgroundImage = global::Rastgele_Seçici.Properties.Resources.user_guide;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Help;
-            this.button4.ForeColor = System.Drawing.Color.Black;
-            this.button4.Location = new System.Drawing.Point(1143, 6);
-            this.button4.Margin = new System.Windows.Forms.Padding(2);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(33, 37);
-            this.button4.TabIndex = 17;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
-            // 
-            // button3
-            // 
-            this.button3.Anchor = System.Windows.Forms.AnchorStyles.Top;
-            this.button3.BackColor = System.Drawing.Color.Transparent;
-            this.button3.BackgroundImage = global::Rastgele_Seçici.Properties.Resources.go_back_arrow;
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderColor = System.Drawing.Color.GhostWhite;
-            this.button3.FlatAppearance.BorderSize = 2;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(996, 12);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(44, 41);
-            this.button3.TabIndex = 16;
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click_1);
-            // 
-            // s3n24_btn
-            // 
-            this.s3n24_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.s3n24_btn.BackColor = System.Drawing.Color.Transparent;
-            this.s3n24_btn.Image = ((System.Drawing.Image)(resources.GetObject("s3n24_btn.Image")));
-            this.s3n24_btn.Location = new System.Drawing.Point(927, 504);
-            this.s3n24_btn.Margin = new System.Windows.Forms.Padding(2);
-            this.s3n24_btn.Name = "s3n24_btn";
-            this.s3n24_btn.Size = new System.Drawing.Size(80, 65);
-            this.s3n24_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.s3n24_btn.TabIndex = 201;
-            this.s3n24_btn.TabStop = false;
-            this.s3n24_btn.Click += new System.EventHandler(this.s3n24_btn_Click);
-            // 
-            // s3n12_btn
-            // 
-            this.s3n12_btn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.s3n12_btn.BackColor = System.Drawing.Color.Transparent;
-            this.s3n12_btn.Image = ((System.Drawing.Image)(resources.GetObject("s3n12_btn.Image")));
-            this.s3n12_btn.Location = new System.Drawing.Point(1017, 504);
-            this.s3n12_btn.Margin = new System.Windows.Forms.Padding(2);
-            this.s3n12_btn.Name = "s3n12_btn";
-            this.s3n12_btn.Size = new System.Drawing.Size(80, 65);
-            this.s3n12_btn.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.s3n12_btn.TabIndex = 202;
-            this.s3n12_btn.TabStop = false;
-            this.s3n12_btn.Click += new System.EventHandler(this.s3n12_btn_Click);
-            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -4109,6 +4120,7 @@
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.label4);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtbox_ogrsayi);
@@ -4213,6 +4225,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.s2n9_btn)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.s3n12_btn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.s3n24_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n16_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n14_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n22_btn)).EndInit();
@@ -4251,8 +4265,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.s3n13_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n17_btn)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.s3n9_btn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.s3n24_btn)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.s3n12_btn)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4519,5 +4531,6 @@
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.PictureBox s3n12_btn;
         private System.Windows.Forms.PictureBox s3n24_btn;
+        private System.Windows.Forms.Label label5;
     }
 }
