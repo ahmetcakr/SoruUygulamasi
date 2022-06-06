@@ -163,6 +163,16 @@ namespace Rastgele_Seçici.Properties {
         /// <summary>
         ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
         /// </summary>
+        internal static System.Drawing.Bitmap hug {
+            get {
+                object obj = ResourceManager.GetObject("hug", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   System.Drawing.Bitmap türünde yerelleştirilmiş bir kaynak arar.
+        /// </summary>
         internal static System.Drawing.Bitmap png_clipart_templatesvb_white_frame_illustration {
             get {
                 object obj = ResourceManager.GetObject("png-clipart-templatesvb-white-frame-illustration", resourceCulture);

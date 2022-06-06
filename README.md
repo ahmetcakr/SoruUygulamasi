@@ -1,12 +1,3 @@
-
-
-![Ekran Görüntüsü (91)](https://user-images.githubusercontent.com/89451731/157877240-442433cf-57f9-4691-a9b4-78a995e06216.png)
-
-
-![Ekran Görüntüsü (92)](https://user-images.githubusercontent.com/89451731/157877260-969278d7-9466-45cc-a08e-ec05b9cd691c.png)
-
-
-
 * Git cheat sheet (türkçe) = [TIKLA](https://mustafadikyar.medium.com/git-github-cheatsheet-596ca9d90fa0/).
  
  
